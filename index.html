@@ -8,7 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script>
+        const favicon = document.createElement("link");
+        favicon.rel = "icon";
+        favicon.type = "image/x-icon";
+        favicon.href = "/favicon.ico?v=" + Date.now(); // Cache-busting with timestamp
+        document.head.appendChild(favicon);
+    </script>
+    
 </head>
 
 <body>
