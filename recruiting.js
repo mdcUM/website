@@ -3,7 +3,7 @@ const sidebar = document.getElementById("sidebar");
 const application = document.getElementById("application");
 const mailingList = document.getElementById("mailing-list");
 const instagram = document.getElementById("instagram");
-const linkedin = document.getElementById("linkedin")
+const linkedin = document.getElementById("linkedin");
 
 menuButton.addEventListener("change", function () {
     if (menuButton.checked) {

@@ -25,6 +25,21 @@ body {
     margin-top: 130px;
 }
 
+.meet-center {
+    margin-top: 50px;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.exec-board {
+    color: white;
+    font-family: 'Work Sans';
+    margin-bottom: 1px;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+
 .title {
     color: white;
     font-family: 'Work Sans';
@@ -379,4 +394,69 @@ button:active {
     justify-content: center;
     align-items: center;
     gap: 25px;
+}
+
+.first-row {
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 280px;
+}
+
+.team-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+    font-family: 'Work Sans';
+    width: 100%;
+}
+
+/* Grid Container */
+.team-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-member {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(89, 85, 85, 0.2);
+}
+
+.team-card {
+    width: 280px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.team-name {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+    color: white;
+}
+
+.team-role {
+    font-size: 1rem;
+    margin-top: 2px;
+    color: white;
 }

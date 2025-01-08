@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michigan Data Consulting</title> 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script>
+        const favicon = document.createElement("link");
+        favicon.rel = "icon";
+        favicon.type = "image/x-icon";
+        favicon.href = "/favicon.ico?v=" + Date.now(); // Cache-busting with timestamp
+        document.head.appendChild(favicon);
+    </script>
+    
+</head>
+
+<body>
+    <header class="top">
+        <div class="logo-container">
+            <img src="images/MDC_logo_processed.png" class="logo" href="index.html">
+            <div class="text-stack">
+                <span>Michigan</span>
+                <span>Data</span>
+                <span>Consulting</span>
+            </div>
+        </div>
+        <label class="burger" for="burger">
+            <input type="checkbox" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+    </header>
+
+    <header class="main">
+        <h2 class="meet-center">Meet The Team</h2>
+    </header>
+
+    <h2 class="exec-board">
+        Executive Board
+    </h2>
+    <hr width="80%" size="2" color="white">
+
+    <section class="team-section">
+        <div class="first-row">
+            <div class="team-member">
+                <img src="images/Vince.jpeg" alt="Vincent" class="team-card">
+                <h2 class="team-name">Vincent Wu</h2>
+                <p class="team-role">President</p>
+            </div>
+        </div>
+        <div class="team-grid">
+            <div class="team-member">
+                <img src="images/Emma.jpeg" alt="Emma" class="team-card">
+                <h2 class="team-name">Emma Peng</h2>
+                <p class="team-role">Vice President of Recruiting</p>
+            </div>
+            <div class="team-member">
+                <img src="images/Cyrus.jpeg" alt="Cyrus" class="team-card">
+                <h2 class="team-name">Cyrus Desai</h2>
+                <p class="team-role">Vice President of External Affairs</p>
+            </div>
+            <div class="team-member">
+                <img src="images/Aidan.jpeg" alt="Aidan" class="team-card">
+                <h2 class="team-name">Aidan Olman</h2>
+                <p class="team-role">Vice President of Internal Affairs</p>
+            </div>
+            <div class="team-member">
+                <img src="images/Rohan.jpeg" alt="Rohan" class="team-card">
+                <h2 class="team-name">Rohan Athreya</h2>
+                <p class="team-role">Vice President of Finances</p>
+            </div>
+            <div class="team-member">
+                <img src="images/Pari.jpeg" alt="Pari" class="team-card">
+                <h2 class="team-name">Pari Dar</h2>
+                <p class="team-role">Vice President of External Affairs</p>
+            </div>
+            <div class="team-member">
+                <img src="images/Evan.jpeg" alt="Evan" class="team-card">
+                <h2 class="team-name">Evan Fitzjohn</h2>
+                <p class="team-role">Vice President of DEI</p>
+            </div>
+        </div>
+        <!-- Add more team members as needed -->
+    </section>
+
+    <div id="sidebar" class="sidebar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recruiting.html">Recruiting</a></li>
+            <li><a href="meet-the-team.html">Meet The Team</a></li>
+        </ul>
+    </div>
+
+    <script src="meet-the-team.js"></script>
+
+</body>
