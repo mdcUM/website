@@ -198,10 +198,8 @@ export default function FlowFieldHeroBg({
   return (
     <div className={`absolute inset-0 z-0 ${className}`} aria-hidden="true">
       <canvas ref={ref} className="h-full w-full pointer-events-none" />
-      {/* faint scanlines */}
       <div className="pointer-events-none absolute inset-0 opacity-[0.08] mix-blend-overlay
         [background:repeating-linear-gradient(0deg,transparent_0px,transparent_2px,rgba(255,255,255,.05)_3px,transparent_4px)]" />
-      {/* vignette */}
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_35%,rgba(0,0,0,0.6)_100%)]" />
     </div>
   );

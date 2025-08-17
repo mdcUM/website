@@ -75,14 +75,12 @@ function TeamCard({ member }) {
           )}
         </div>
 
-        {/* Text */}
         <div className="mt-4 text-center">
           <h3 className="font-display text-lg md:text-xl font-semibold tracking-tight">{member.name}</h3>
           <p className="mt-1 text-sm text-white/75">
             {member.title}{member.grade ? ` • ${member.grade}` : ''}
           </p>
 
-          {/* Links */}
           {member.links && (
             <div className="mt-4 flex flex-wrap items-center justify-center gap-2.5">
               {Object.entries(member.links)
@@ -95,7 +93,6 @@ function TeamCard({ member }) {
         </div>
       </div>
 
-      {/* bottom accent bar */}
       <div className="h-1 w-full [background:linear-gradient(90deg,#E6DAFF,#9080DB)]" />
     </motion.article>
   );
@@ -111,7 +108,6 @@ export default function TeamSections({ sections }) {
             <h2 className="font-display text-xl md:text-2xl font-semibold tracking-tight">{s.title}</h2>
           </div>
 
-          {/* Auto-fit grid -> when only 1–2 members, they’re centered & spread */}
           <div className="grid gap-6 [grid-template-columns:repeat(auto-fit,minmax(280px,1fr))]">
             {s.members.map((m) => (
               <TeamCard key={m.name} member={m} />

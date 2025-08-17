@@ -221,7 +221,7 @@ export default function ClientsView() {
             Clients & Projects
           </div>
           <h1 className="mt-4 font-display text-4xl md:text-5xl font-semibold tracking-tight">Stuff</h1>
-          <p className="mt-3 max-w-2xl text-white/80">Stuff we do</p>
+          <p className="mt-3 max-w-2xl text-white/80">If you want to work with us, please reach out to <a href="mailto:michigandataconsulting@umich.edu" className="text-blue-500 underline">michigandataconsulting@umich.edu</a></p>
           <div className="mt-4 flex flex-wrap gap-2 text-sm text-white/70">
             <span className="rounded-full border border-white/15 px-3 py-1">{counts.clients} clients</span>
             <span className="rounded-full border border-white/15 px-3 py-1">{counts.domains} service areas</span>
