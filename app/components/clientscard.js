@@ -218,10 +218,10 @@ export default function ClientsView() {
         <header className="mb-10 md:mb-12">
           <div className="inline-flex items-center gap-2 rounded-full border border-white/15 px-3 py-1 text-xs text-white/70">
             <span className="h-1.5 w-1.5 rounded-full" style={{ background: 'linear-gradient(90deg,#E6DAFF,#9080DB)' }} />
-            Clients & Partners
+            Clients & Projects
           </div>
-          <h1 className="mt-4 font-display text-4xl md:text-5xl font-semibold tracking-tight">We ship with great teams</h1>
-          <p className="mt-3 max-w-2xl text-white/80">Product, data, and design — scoped builds that move the needle.</p>
+          <h1 className="mt-4 font-display text-4xl md:text-5xl font-semibold tracking-tight">Stuff</h1>
+          <p className="mt-3 max-w-2xl text-white/80">Stuff we do</p>
           <div className="mt-4 flex flex-wrap gap-2 text-sm text-white/70">
             <span className="rounded-full border border-white/15 px-3 py-1">{counts.clients} clients</span>
             <span className="rounded-full border border-white/15 px-3 py-1">{counts.domains} service areas</span>

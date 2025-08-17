@@ -1,4 +1,4 @@
-export const companies = [
+export const CLIENTS_HOME = [
   'Ascend',
   'ShapeLog',
   'BuyMySpot',
@@ -10,7 +10,7 @@ export const companies = [
   'Medlytics'
 ];
 
-const SECTIONS = [
+export const MEMBERS = [
   {
     key: 'eboard',
     title: 'Executive Board',
@@ -119,8 +119,6 @@ const SECTIONS = [
     ],
   },
 ];
-
-export default SECTIONS;
 
 export const APPLY_URL = 'https://forms.gle/your-google-form-id';
 export const EVENTS = [

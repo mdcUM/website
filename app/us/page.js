@@ -2,7 +2,7 @@
 
 import React from 'react';
 import TeamSections from '../components/team';
-import SECTIONS from '../data/tables';
+import { MEMBERS } from '../data/tables';
 import StickyHeader from '../components/header';
 import Footer from '../components/footer';
 
@@ -32,7 +32,7 @@ export default function TeamPage() {
           </p>
         </header>
 
-        <TeamSections sections={SECTIONS} />
+        <TeamSections sections={MEMBERS} />
       </div>
 
       <Footer backTo='#top'/>

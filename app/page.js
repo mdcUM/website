@@ -1,6 +1,6 @@
 'use client'
 
-import { companies } from "./data/tables";
+import { CLIENTS_HOME } from "./data/tables";
 import FlowFieldTechBg from "./components/flowhero";
 import StickyHeader from "./components/header";
 import CaseCard from "./components/case";
@@ -50,12 +50,12 @@ export default function Home() {
       <section className="border-b border-white/10 bg-white/5/10">
         <div className="mx-auto max-w-6xl overflow-hidden px-4 py-4">
           <div className="flex min-w-[200%] animate-[marquee_28s_linear_infinite] items-center gap-8 text-sm text-white/60 [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
-            {companies.map((n,i)=> (
+            {CLIENTS_HOME.map((n,i)=> (
               <span key={i} className="rounded-full border border-white/10 px-4 py-2 backdrop-blur">
                 {n}
               </span>
             ))}
-            {companies.map((n,i)=> (
+            {CLIENTS_HOME.map((n,i)=> (
               <span key={`dup-${i}`} className="rounded-full border border-white/10 px-4 py-2 backdrop-blur">
                 {n}
               </span>
