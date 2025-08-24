@@ -1,6 +1,6 @@
 'use client'
 
-import { CLIENTS_HOME } from "./data/tables";
+import { CLIENTS_HOME } from "./data/clients";
 import FlowFieldTechBg from "./components/flowhero";
 import StickyHeader from "./components/header";
 import CaseCard from "./components/case";

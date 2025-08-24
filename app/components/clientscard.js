@@ -4,7 +4,8 @@ import React, { useMemo, useState, useEffect } from 'react';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ExternalLink, X } from 'lucide-react';
-import { CLIENTS } from '../data/tables';
+import { CLIENTS } from '../data/clients';
+import StickyHeader from './header';
 
 function initials(name){ const p=name.trim().split(/\s+/); return ((p[0]?.[0]||'')+(p[p.length-1]?.[0]||'')).toUpperCase(); }
 
@@ -31,8 +32,8 @@ function LogoTile({ name, logo, brand }) {
 
 function StatChip({ label, value }) {
   return (
-    <div className="rounded-xl border border-white/10 bg-white/[0.04] px-2.5 py-1 text-[11px] text-white/80">
-      <span className="font-semibold text-white">{value}</span> <span className="text-white/70">{label}</span>
+    <div className="rounded-xl border border-white/10 bg-white/[0.04] px-2.5 py-1 text-[15px] text-white/80">
+      <span className="font-semibold text-white">{value}</span> <span className="text-white/80">{label}</span>
     </div>
   );
 }

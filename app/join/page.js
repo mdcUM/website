@@ -2,7 +2,7 @@ import React from 'react';
 import Timeline from '../components/timeline';
 import StickyHeader from '../components/header';
 import Footer from '../components/footer';
-import { EVENTS, APPLY_URL } from '../data/tables';
+import { EVENTS, APPLY_URL } from '../data/recruiting';
 
 export default function JoinPage(){
   return (

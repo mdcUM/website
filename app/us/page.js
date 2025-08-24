@@ -2,7 +2,7 @@
 
 import React from 'react';
 import TeamSections from '../components/team';
-import { MEMBERS } from '../data/tables';
+import { MEMBERS } from '../data/team';
 import StickyHeader from '../components/header';
 import Footer from '../components/footer';
 
