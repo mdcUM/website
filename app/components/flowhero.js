@@ -7,9 +7,11 @@ export default function FlowFieldHeroBg({
   background = '#0b0b11',
   colorA = '#E6DAFF',
   colorB = '#9080DB',
-  density = 0.00015,
+  //density = 0.00015,
+  density = 0.0015,
   speed = 0.8,
-  maxParticles = 5500,
+  //maxParticles = 5500,
+  maxParticles = 25000,
   trails = 0.22,     // 0 = no trails; higher = quicker fade
   fps = 60,          // 45–60 is smooth; lower saves battery
   lineAlpha = 0.75,
@@ -48,7 +50,14 @@ export default function FlowFieldHeroBg({
       const target = Math.min(maxParticles, Math.round(w * h * density));
       particles.length = 0;
       for (let i = 0; i < target; i++) {
-        particles.push({ x: Math.random() * w, y: Math.random() * h });
+        //particles.push({ x: Math.random() * w, y: Math.random() * h });
+        particles.push({
+          x: Math.random() * w,
+          y: Math.random() * h,
+          xoff: Math.random() * 10000,
+          yoff: Math.random() * 10000
+        });
+
       }
     }
 
@@ -112,7 +121,8 @@ export default function FlowFieldHeroBg({
       const t = 0;
       for (let i = 0; i < particles.length; i++) {
         const p = particles[i];
-        const a = field.angle(p.x, p.y, t);
+        const phase = Math.random() * Math.PI * 2;
+        const a = field.angle(p.x + p.xoff, p.y + p.yoff, t + phase);
         const nx = p.x + Math.cos(a) * 16;
         const ny = p.y + Math.sin(a) * 16;
         ctx.moveTo(p.x, p.y);
@@ -158,7 +168,7 @@ export default function FlowFieldHeroBg({
           const dx = mouse.x - p.x;
           const dy = mouse.y - p.y;
           const d2 = dx * dx + dy * dy;
-          if (d2 < 160 * 160) a += Math.atan2(dy, dx) * 0.12;
+          if (d2 < 180 * 180) a += Math.atan2(dy, dx) * 0.3;
         }
 
         const nx = p.x + Math.cos(a) * step;
@@ -168,8 +178,16 @@ export default function FlowFieldHeroBg({
         ctx.lineTo(nx, ny);
 
         // wrap
-        p.x = nx < 0 ? nx + w : nx > w ? nx - w : nx;
-        p.y = ny < 0 ? ny + h : ny > h ? ny - h : ny;
+        if (nx < 0 || nx > w || ny < 0 || ny > h) {
+          p.x = Math.random() * w;
+          p.y = Math.random() * h;
+        } else {
+          p.x = nx;
+          p.y = ny;
+        }
+
+
+
       }
 
       ctx.stroke();
