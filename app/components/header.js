@@ -1,5 +1,6 @@
 'use client';
-
+import Link from 'next/link';
+import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
 export default function StickyHeader() {
@@ -36,16 +37,16 @@ export default function StickyHeader() {
       ].join(' ')}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-        <a href="/" className="flex flex-row items-center gap-2 hover:bg-white/10 rounded-lg p-1">
-          <img src="/mdc.jpg" alt="MDC Logo" className="h-8" />
+        <Link href="/" className="flex flex-row items-center gap-2 hover:bg-white/10 rounded-lg p-1">
+          <Image src="/mdc.jpg" alt="MDC Logo" className="h-8" width={32} height={32} />
           <span className="font-semibold tracking-tight ">MDC</span>
-        </a>
+        </Link>
         
         <nav className="hidden items-center gap-2 sm:flex">
-          <a className="rounded-lg px-3 py-2 text-sm text-white/80 hover:bg-white/5" href="/">Home</a>
-          <a className="rounded-lg px-3 py-2 text-sm text-white/80 hover:bg-white/5" href="/clients">Clients</a>
-          <a className="rounded-lg px-3 py-2 text-sm text-white/80 hover:bg-white/5" href="/us">Us</a>
-          <a className="rounded-lg px-3 py-2 text-sm text-white/80 hover:bg-white/5" href="/join">Join</a>
+          <Link className="rounded-lg px-3 py-2 text-sm text-white/80 hover:bg-white/5" href="/">Home</Link>
+          <Link className="rounded-lg px-3 py-2 text-sm text-white/80 hover:bg-white/5" href="/clients">Clients</Link>
+          <Link className="rounded-lg px-3 py-2 text-sm text-white/80 hover:bg-white/5" href="/us">Us</Link>
+          <Link className="rounded-lg px-3 py-2 text-sm text-white/80 hover:bg-white/5" href="/join">Join</Link>
         </nav>
 
         <button

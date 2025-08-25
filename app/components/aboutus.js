@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 export default function WhoWeAreSimple({
   title = 'Who we are',
@@ -45,7 +46,7 @@ export default function WhoWeAreSimple({
         <div className="relative">
           <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-white/10">
             {images.map((img, idx) => (
-              <img
+              <Image
                 key={idx}
                 src={img.src}
                 alt={img.alt || ''}
@@ -53,6 +54,7 @@ export default function WhoWeAreSimple({
                   idx === i ? 'opacity-100' : 'opacity-0'
                 }`}
                 draggable={false}
+                width={600} height={450}
               />
             ))}
 
