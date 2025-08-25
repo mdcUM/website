@@ -183,7 +183,7 @@ export default function ClientPage() {
                         </h4>
                         <div className="space-y-3">
                           {client.work.map((item, idx) => (
-                            <div key={idx} className="flex items-start gap-3">
+                            <div key={idx} className="flex items-start gap-3 text-md">
                               <span className="h-1.5 w-1.5 rounded-full mt-2 flex-shrink-0"
                                     style={{ background: 'linear-gradient(90deg,#E6DAFF,#9080DB)' }} />
                               <span className="text-white/85">{item}</span>
@@ -275,10 +275,10 @@ export default function ClientPage() {
               >
                 <Section title="Client Feedback">
                   <blockquote className="rounded-xl border border-white/10 bg-white/[0.05] p-4">
-                    <p className="text-sm text-white/85 italic mb-3">
+                    <p className="text-md text-white/85 italic mb-3">
                       {client.testimonial.quote}
                     </p>
-                    <footer className="text-xs text-white/60">
+                    <footer className="text-sm text-white/60">
                       — {client.testimonial.author}
                     </footer>
                   </blockquote>
