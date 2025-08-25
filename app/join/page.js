@@ -28,7 +28,7 @@ export default function JoinPage(){
         </div>
       </section>
 
-      <Footer />
+      <Footer social={{instagram: "https://instagram.com/umich_mdc", email: "michigandataconsulting@umich.edu", linkedin: "https://www.linkedin.com/company/michigan-data-consulting"}}/>
     </main>
   );
 }

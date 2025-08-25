@@ -35,7 +35,7 @@ export default function TeamPage() {
         <TeamSections sections={MEMBERS} />
       </div>
 
-      <Footer backTo='#top'/>
+      <Footer backTo="#top" social={{instagram: "https://instagram.com/umich_mdc", email: "michigandataconsulting@umich.edu", linkedin: "https://www.linkedin.com/company/michigan-data-consulting"}}/>
     </main>
   );
 }
