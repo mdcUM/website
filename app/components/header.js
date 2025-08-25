@@ -104,16 +104,16 @@ export default function StickyHeader() {
           </div>
 
           <nav className="mt-2 flex flex-col gap-1">
-            <a onClick={() => setOpen(false)} className="rounded-lg px-3 py-2 text-sm text-white/90 hover:bg-white/10" href="/">Home</a>
-            <a onClick={() => setOpen(false)} className="rounded-lg px-3 py-2 text-sm text-white/90 hover:bg-white/10" href="/clients">Clients</a>
-            <a onClick={() => setOpen(false)} className="rounded-lg px-3 py-2 text-sm text-white/90 hover:bg-white/10" href="/us">Us</a>
-            <a
+            <Link onClick={() => setOpen(false)} className="rounded-lg px-3 py-2 text-sm text-white/90 hover:bg-white/10" href="/">Home</Link>
+            <Link onClick={() => setOpen(false)} className="rounded-lg px-3 py-2 text-sm text-white/90 hover:bg-white/10" href="/clients">Clients</Link>
+            <Link onClick={() => setOpen(false)} className="rounded-lg px-3 py-2 text-sm text-white/90 hover:bg-white/10" href="/us">Us</Link>
+            <Link
               onClick={() => setOpen(false)}
               className="mt-2 inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#9080DB] to-[#E6DAFF] px-4 py-2 text-sm font-medium text-[#0b0b11] shadow-[0_10px_30px_rgba(144,128,219,0.18)] hover:opacity-95"
               href="/join"
             >
               Join Us!
-            </a>
+            </Link>
           </nav>
 
           <div className="mt-6 border-t border-white/10 pt-3 text-xs text-white/50">
