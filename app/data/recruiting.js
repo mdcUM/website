@@ -1,10 +1,10 @@
 export const APPLY_URL = 'https://forms.gle/your-google-form-id';
 export const EVENTS = [
-  { title: 'Applications Open', start: '2025-08-25T09:00:00', end: '2025-08-25T09:30:00', location: 'Online', description: '10-minute form.' },
-  { title: 'Info Session #1', start: '2025-08-28T18:00:00', end: '2025-08-28T19:00:00', location: 'EECS 1200 / Zoom', link: '/events/info-1' },
-  { title: 'Coffee Chats (Drop-in)', start: '2025-08-30T13:00:00', end: '2025-08-30T16:00:00', location: 'Duderstadt Atrium', description: 'Meet the crew.' },
-  { title: 'Applications Close', start: '2025-09-02T23:59:00', location: 'Online', description: 'Hard deadline.' },
-  { title: 'Interviews', start: '2025-09-05T17:00:00', end: '2025-09-07T18:00:00', location: 'BBB 1690', description: '30 min convos.' },
-  { title: 'Decisions Released', start: '2025-09-09T20:00:00', location: 'Email' },
-  { title: 'Kickoff & Onboarding', start: '2025-09-15T18:00:00', end: '2025-09-15T19:30:00', location: 'EEE 290', description: 'Welcome aboard 🚀' },
+  { title: 'Festifall', start: '2025-08-27T09:00:00', end: '2025-08-25T09:30:00', location: 'Session 2 A30', description: 'Come get to knwo the club! ' },
+  { title: 'Mass Meeting 1', start: '2025-08-28T18:00:00', end: '2025-08-28T19:00:00', location: 'League Henderson', link: 'Get to know the club!' },
+  { title: 'Mass Meeting 2', start: '2025-09-01T19:00:00', end: '2025-08-30T20:00:00', location: 'Union Anderson', description: 'Get to know the club moareeee!!!' }
+  { title: 'Resume Workshop', start: '2025-09-02T19:00:00', end: '2025-08-30T20:00:00', location: 'Mason Hall 3437', description: 'Come by to learn how you can improve your resume, not just for when applying to clubs but als0 for jobs!' },
+  { title: 'Inclusivity Panel', start: '2025-09-05T19:00:00', end: '2025-09-07T20:00:00', location: 'Mason Hall 3437', description: 'Come by to see how MDC handles inclusion as a whole' },
+  { title: 'Applications Close ', start: '2025-09-09T23:59:59', location: 'This is a hard deadline, no exceptions will be made' },
+  { title: 'Release Decision', start: '2025-09-15T10:00:00', location: 'Check your emails', description: 'Gogogooooo' },
 ];
