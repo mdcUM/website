@@ -1,4 +1,4 @@
-nexport const APPLY_URL = 'https://forms.gle/your-google-form-id';
+nexport const APPLY_URL = 'https://forms.gle/MMw2gpNFQDsFGfTZ9';
 export const EVENTS = [
   { title: 'Festifall', start: '2025-08-27T09:00:00', end: '2025-08-25T09:30:00', location: 'Session 2 A30', description: 'Come get to know the club! ' },
   { title: 'Mass Meeting 1', start: '2025-08-28T18:00:00', end: '2025-08-28T19:00:00', location: 'League Henderson', description: 'Get to know the club!' },
