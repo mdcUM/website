@@ -14,7 +14,7 @@ export const CLIENTS = [
   {
     name: 'Ascend',
     logo: '',                       // put '/clients/ascend.svg' later
-    brand: '#8F7BFF',
+    brand: 'rgba(143, 123, 255, 1)',
     year: 2025,
     tags: ['Web & App', 'Design'],
     summary: 'Membership portal with onboarding and billing.',
@@ -56,7 +56,7 @@ export const CLIENTS = [
       + 'The result was an hourly refreshed, trustworthy KPI dashboard that replaced a weekly six-hour spreadsheet process and reshaped standups into data-driven conversations.',
   },
   {
-    name: 'Health+AI',
+    name: 'Health AI',
     logo: '',
     brand: '#FF87D0',
     year: 2024,

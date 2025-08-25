@@ -79,9 +79,9 @@ export default function Home() {
       <section id="work" className="mx-auto max-w-6xl px-4 pb-16">
         <h2 className="text-2xl font-semibold sm:text-3xl">Selected work</h2>
         <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          <CaseCard tag="Web" title="Membership portal" blurb="Streamlined onboarding and billing." />
-          <CaseCard tag="Data" title="KPI dashboard" blurb="Live metrics for ops leaders." />
-          <CaseCard tag="ML" title="Lead scoring" blurb="Prototype improved conversions." />
+          <CaseCard tag="Web" title="Ascend" blurb="Streamlined onboarding and billing." link="/clients/ascend"/>
+          <CaseCard tag="Data" title="Civic Lab" blurb="Live metrics for ops leaders." link="/clients/civic-lab" />
+          <CaseCard tag="ML" title="Health AI" blurb="Prototype improved conversions." link="/clients/health-ai" />
         </div>
       </section>
 

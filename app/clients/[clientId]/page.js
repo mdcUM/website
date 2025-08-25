@@ -249,9 +249,7 @@ export default function ClientPage() {
             )}
           </div>
 
-          {/* Sidebar */}
           <div className="space-y-6">
-            {/* Impact Stats */}
             {client.impact && client.impact.length > 0 && (
               <motion.div 
                 initial={{ opacity: 0, x: 30 }}
