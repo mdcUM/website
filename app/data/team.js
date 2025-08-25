@@ -114,7 +114,7 @@ export const MEMBERS = [
       { name: 'Michael Li',    title: 'Analyst', grade: 'Sophomore', image: '/members/michael_li.jpg', links: { linkedin: 'https://www.linkedin.com/in/lxymli/' } },
       { name: 'Nikita Benny',    title: 'Analyst', grade: 'Sophomore', image: '/members/nikita_benny.jpg', links: { linkedin: 'https://www.linkedin.com/in/nikita-benny/' } },
       { name: 'Marco Li',    title: 'Analyst', grade: 'Senior', image: '/members/marco_li.jpg', links: { linkedin: 'https://www.linkedin.com/in/qinkai-marco-li-88841026a/' } },
-      { name: 'Rikki Vinod',    title: 'Analyst', grade: 'Junior', image: '/members/rikki_vinod.jpg', links: { linkedin: 'https://www.linkedin.com/in/rithvikvinod/' } },
+      { name: 'Rikki Vinod',    title: 'Analyst', grade: 'Junior', image: '/members/rikki_vinod.jpg', links: { linkedin: 'https://www.linkedin.com/in/rithvikvinod/', github: 'https://github.com/Rithvin05' } },
       { name: 'Karthik Vangavolu',    title: 'Analyst', grade: 'Junior', /*image: '/members/karthik_vangavolu.jpg',*/ links: { linkedin: 'https://www.linkedin.com/in/srikarthik-vangavolu-a16476280/' } },
       { name: 'Stanley Czabanski',    title: 'Analyst', grade: 'Junior', image: '/members/stanley_czabanski.jpg', links: { linkedin: 'https://www.linkedin.com/in/stanley-czabanski/' } },
       { name: 'Varshini Anbu',    title: 'Analyst', grade: 'Junior', image: '/members/varshini_anbu.jpg', links: { linkedin: 'https://www.linkedin.com/in/vijayavarshini-anbu/' } },
