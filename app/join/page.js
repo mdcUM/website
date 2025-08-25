@@ -20,7 +20,7 @@ export default function JoinPage(){
             Join Us
           </h1>
           <p className="mt-3 max-w-2xl text-white/80">
-            something about blah blah look at us and our photos
+            Come join us at our events to get to know more about the club, our members, and other students who share similar interestes as you!  
           </p>
       </div>
         <div>
