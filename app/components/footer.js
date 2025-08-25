@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Github, Linkedin, Globe, Mail, Twitter } from 'lucide-react';
+import { Github, Linkedin, Globe, Mail, Twitter, Instagram } from 'lucide-react';
 
 const iconMap = {
   github: Github,
@@ -8,6 +8,7 @@ const iconMap = {
   website: Globe,
   email: Mail,
   twitter: Twitter,
+  instagram: Instagram,
 };
 
 function SocialIcons({ social = {} }) {
@@ -67,10 +68,6 @@ export default function Footer({
               <p className="mt-2 max-w-sm text-sm text-white/65">{brand.tagline}</p>
             ) : null}
           </div>
-
-          <div className="md:justify-end md:flex">
-            <SocialIcons social={social} />
-          </div>
         </div>
 
         <div className="mt-8 flex flex-col items-start justify-between gap-3 border-t border-white/10 pt-6 text-sm text-white/60 md:flex-row md:items-center">
@@ -78,6 +75,9 @@ export default function Footer({
           <a href={backTo} className="hover:text-white">
             Back to top ↑
           </a>
+          <div className="md:ml-auto">
+            <SocialIcons social={social} />
+          </div>
         </div>
       </div>
     </footer>
