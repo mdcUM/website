@@ -32,7 +32,7 @@ export default function StickyHeader() {
       className={[
         'fixed top-0 z-50 w-full border-b transition-colors duration-300',
         scrolled
-          ? 'border-white/10 bg-black/60 backdrop-blur supports-[backdrop-filter]:bg-black/40 shadow-[0_10px_30px_rgba(0,0,0,0.25)]'
+          ? 'border-white/10 bg-black/60 shadow-[0_10px_30px_rgba(0,0,0,0.25)]'
           : 'border-transparent bg-transparent',
       ].join(' ')}
     >
@@ -77,7 +77,7 @@ export default function StickyHeader() {
         <div
           onClick={() => setOpen(false)}
           className={[
-            'absolute inset-0 bg-black/50 backdrop-blur-[2px] transition-opacity',
+            'absolute inset-0 bg-black/50 transition-opacity',
             open ? 'opacity-100' : 'opacity-0',
           ].join(' ')}
         />
@@ -104,20 +104,20 @@ export default function StickyHeader() {
           </div>
 
           <nav className="mt-2 flex flex-col gap-1">
-            <a onClick={() => setOpen(false)} className="rounded-lg px-3 py-2 text-sm text-white/90 hover:bg-white/10" href="#work">Work</a>
-            <a onClick={() => setOpen(false)} className="rounded-lg px-3 py-2 text-sm text-white/90 hover:bg-white/10" href="#services">Services</a>
-            <a onClick={() => setOpen(false)} className="rounded-lg px-3 py-2 text-sm text-white/90 hover:bg-white/10" href="#team">Team</a>
+            <a onClick={() => setOpen(false)} className="rounded-lg px-3 py-2 text-sm text-white/90 hover:bg-white/10" href="/">Home</a>
+            <a onClick={() => setOpen(false)} className="rounded-lg px-3 py-2 text-sm text-white/90 hover:bg-white/10" href="/clients">Clients</a>
+            <a onClick={() => setOpen(false)} className="rounded-lg px-3 py-2 text-sm text-white/90 hover:bg-white/10" href="/us">Us</a>
             <a
               onClick={() => setOpen(false)}
               className="mt-2 inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#9080DB] to-[#E6DAFF] px-4 py-2 text-sm font-medium text-[#0b0b11] shadow-[0_10px_30px_rgba(144,128,219,0.18)] hover:opacity-95"
-              href="#contact"
+              href="/join"
             >
-              Start a project
+              Join Us!
             </a>
           </nav>
 
           <div className="mt-6 border-t border-white/10 pt-3 text-xs text-white/50">
-            <p>Tech Consulting Club</p>
+            <p>@2025 MDC</p>
           </div>
         </aside>
       </div>

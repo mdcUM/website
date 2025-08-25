@@ -183,7 +183,7 @@ export default function ClientPage() {
                         </h4>
                         <div className="space-y-3">
                           {client.work.map((item, idx) => (
-                            <div key={idx} className="flex items-start gap-3 text-md">
+                            <div key={idx} className="flex items-start gap-3 text-mds">
                               <span className="h-1.5 w-1.5 rounded-full mt-2 flex-shrink-0"
                                     style={{ background: 'linear-gradient(90deg,#E6DAFF,#9080DB)' }} />
                               <span className="text-white/85">{item}</span>

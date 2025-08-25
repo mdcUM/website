@@ -55,7 +55,7 @@ function planetGradient(idx, active){
     : `radial-gradient(circle at 30% 30%, hsl(${h} 100% 92% / .35), hsl(${h} 55% 65% / .35) 60%, hsl(${h-20} 35% 25% / .35) 100%)`;
 }
 
-export default function Timeline({ season='Fall 2025', applyUrl='', events=[] }) {
+export default function Timeline({ season='Fall 2025', interestUrl='', applyUrl='', events=[] }) {
   const sorted = [...events].sort((a,b)=>new Date(a.start)-new Date(b.start));
 
   return (
@@ -77,6 +77,27 @@ export default function Timeline({ season='Fall 2025', applyUrl='', events=[] })
             </div>
           </div>
 
+          <div className="flex flex-wrap gap-3">
+            {interestUrl ? (
+            <a
+              href={interestUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center rounded-full bg-gradient-to-l from-[#9080DB] to-[#E6DAFF] px-5 py-2.5 font-medium text-[#0b0b11] shadow-[0_10px_30px_rgba(144,128,219,0.18)]"
+            >
+              Interest Form
+            </a>
+          ) : (
+            <a
+              href={interestUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center rounded-full bg-gradient-to-l from-[#5B3FA6] to-[#1F1B50] px-5 py-2.5 font-medium text-white shadow-[0_10px_30px_rgba(144,128,219,0.18)]"
+            >
+              Closed
+            </a>
+          )}
+
           {applyUrl ? (
             <a
               href={applyUrl}
@@ -87,8 +108,18 @@ export default function Timeline({ season='Fall 2025', applyUrl='', events=[] })
               Apply now
             </a>
           ) : (
-            <div className="text-sm text-white/60">Add your Google Form URL to <code>applyUrl</code>.</div>
+            <a
+              href={applyUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#5B3FA6] to-[#1F1B50] px-5 py-2.5 font-medium text-white shadow-[0_10px_30px_rgba(144,128,219,0.18)]"
+            >
+              Closed
+            </a>
           )}
+          </div>
+
+          
         </div>
       </div>
 

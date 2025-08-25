@@ -2,7 +2,7 @@ import React from 'react';
 import Timeline from '../components/timeline';
 import StickyHeader from '../components/header';
 import Footer from '../components/footer';
-import { EVENTS, APPLY_URL } from '../data/recruiting';
+import { EVENTS, APPLY_URL, INTEREST_URL } from '../data/recruiting';
 
 export default function JoinPage(){
   return (
@@ -24,7 +24,7 @@ export default function JoinPage(){
           </p>
       </div>
         <div>
-          <Timeline season="Fall 2025" applyUrl={APPLY_URL} events={EVENTS} big />
+          <Timeline season="Fall 2025" interestUrl={INTEREST_URL} applyUrl={APPLY_URL} events={EVENTS} big />
         </div>
       </section>
 
