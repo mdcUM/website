@@ -1,4 +1,4 @@
-'use client'
+ 'use client'
 
 import React from 'react';
 import TeamSections from '../components/team';
@@ -28,7 +28,7 @@ export default function TeamPage() {
             Us
           </h1>
           <p className="mt-3 max-w-2xl text-white/80">
-            something about blah blah look at us and our photos
+            Here are our current members, feel free to reach out to them!
           </p>
         </header>
 
