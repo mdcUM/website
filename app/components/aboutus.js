@@ -12,7 +12,7 @@ export default function WhoWeAreSimple({
     { src: '/team/team3.jpg', alt: 'Group Talking Photo 2' },
   ],
   auto = true,
-  interval = 1500,
+  interval = 3000,
 }) {
   const [i, setI] = useState(0);
   const n = images.length;
