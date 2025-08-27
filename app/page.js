@@ -86,7 +86,7 @@ export default function Home() {
         </div>
       </section>
 
-      <Footer social={{instagram: "https://instagram.com/umich_mdc", email: "michigandataconsulting@umich.edu", linkedin: "https://www.linkedin.com/company/michigan-data-consulting"}}/>
+      <Footer social={{instagram: "https://instagram.com/umich_mdc", email: "mdc-eboard@umich.edu", linkedin: "https://www.linkedin.com/company/michigan-data-consulting"}}/>
 
       <style jsx>{`
         @keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
