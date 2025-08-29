@@ -20,7 +20,7 @@ export default function JoinPage(){
             Join Us
           </h1>
           <p className="mt-3 max-w-2xl text-white/80">
-            Come join us at our events to get to know more about the club, our members, and other students who share similar interestes as you!  
+            Come join us at our events to get to know more about the club, our members, and other students who share similar interests as you!  
           </p>
       </div>
         <div>
@@ -28,7 +28,7 @@ export default function JoinPage(){
         </div>
       </section>
 
-      <Footer social={{instagram: "https://instagram.com/umich_mdc", email: "michigandataconsulting@umich.edu", linkedin: "https://www.linkedin.com/company/michigan-data-consulting"}}/>
+      <Footer social={{instagram: "https://instagram.com/umich_mdc", email: "mdc-eboard@umich.edu", linkedin: "https://www.linkedin.com/company/michigan-data-consulting"}}/>
     </main>
   );
 }

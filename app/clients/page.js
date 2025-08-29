@@ -10,7 +10,7 @@ export default function Page() {
     <>
         <StickyHeader />
         <ClientsView />
-        <Footer social={{instagram: "https://instagram.com/umich_mdc", email: "michigandataconsulting@umich.edu", linkedin: "https://www.linkedin.com/company/michigan-data-consulting"}}/>
+        <Footer social={{instagram: "https://instagram.com/umich_mdc", email: "mdc-eboard@umich.edu", linkedin: "https://www.linkedin.com/company/michigan-data-consulting"}}/>
     </>
   
 );
