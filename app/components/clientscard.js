@@ -146,9 +146,9 @@ function ClientModal({ open, onClose, client }) {
                   <h4 className="text-sm font-semibold text-white/90">What we did</h4>
                   <ul className="mt-2 grid gap-1.5 text-sm text-white/85">
                     {client.work.map((w, i) => (
-                      <li key={i} className="flex items-start gap-2">
+                      <li key={i} className="flex items-center gap-2">
                         <span
-                          className="h-1.5 w-1.5 rounded-full"
+                          className="h-1.5 w-1.5 rounded-full flex-shrink-0 mt-0.5"
                           style={{ background: 'linear-gradient(90deg,#E6DAFF,#9080DB)' }}
                         />
                         <span>{w}</span>

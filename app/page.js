@@ -70,19 +70,31 @@ export default function Home() {
       <section id="services" className="mx-auto max-w-6xl px-4 py-16">
         <h2 className="text-2xl font-semibold sm:text-3xl">What we do</h2>
         <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          <ServiceCard title="Web & App" desc="Next.js sites, portals, and dashboards with great UX." />
-          <ServiceCard title="Data & ML" desc="ETL, dashboards, quick ML prototypes to validate impact." />
-          <ServiceCard title="Design" desc="Branding, UI kits, and component libraries." />
-          <ServiceCard title="Cloud" desc="Deployments on Vercel/AWS with monitoring and CI/CD." />
+        <ServiceCard 
+          title="Web & App" 
+          desc="React/Next.js platforms, interactive dashboards, and chatbots with user-focused design." 
+        />
+        <ServiceCard 
+          title="Data & ML" 
+          desc="RAG pipelines, KPIs, and ML-driven insights using pandas, SQL, and graph algorithms." 
+        />
+        <ServiceCard 
+          title="Design" 
+          desc="UX research, survey design, branding systems, and intuitive UI libraries." 
+        />
+        <ServiceCard 
+          title="Cloud" 
+          desc="Scalable ETL pipelines, database optimization, and secure deployments on AWS/Vercel." 
+        />
         </div>
       </section>
 
       <section id="work" className="mx-auto max-w-6xl px-4 pb-16">
         <h2 className="text-2xl font-semibold sm:text-3xl">Selected work</h2>
         <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          <CaseCard tag="Web" title="Ascend" blurb="Streamlined onboarding and billing." link="/clients/ascend"/>
-          <CaseCard tag="Data" title="Civic Lab" blurb="Live metrics for ops leaders." link="/clients/civic-lab" />
-          <CaseCard tag="ML" title="Health AI" blurb="Prototype improved conversions." link="/clients/health-ai" />
+          <CaseCard tag="Data" title="Ford School" blurb="KPI analysis and analytics dashboarding." link="/clients/ford" logo="/clients/ford.png"/>
+          <CaseCard tag="ML" title="RAG Property Search" blurb="Developed RAG pipelines and chatbot for home buyers." link="/clients/homestream" logo="/clients/homestream.png" />
+          <CaseCard tag="Data" title="Nomad Science" blurb="Optimized archaeology data systems and documentation." link="/clients/nomad" logo="/clients/nomad_science.png" />
         </div>
       </section>
 
