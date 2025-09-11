@@ -93,7 +93,7 @@ export default function Home() {
         <h2 className="text-2xl font-semibold sm:text-3xl">Selected work</h2>
         <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           <CaseCard tag="Data" title="Ford School" blurb="KPI analysis and analytics dashboarding." link="/clients/ford" logo="/clients/ford.png"/>
-          <CaseCard tag="ML" title="RAG Property Search" blurb="Developed RAG pipelines and chatbot for home buyers." link="/clients/homestream" logo="/clients/homestream.png" />
+          <CaseCard tag="ML" title="Homestream" blurb="Developed RAG pipelines and chatbot for home buyers." link="/clients/homestream" logo="/clients/homestream.png" />
           <CaseCard tag="Data" title="Nomad Science" blurb="Optimized archaeology data systems and documentation." link="/clients/nomad" logo="/clients/nomad_science.png" />
         </div>
       </section>
