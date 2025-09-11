@@ -9,6 +9,7 @@ export const CLIENTS_HOME = [
 export const CLIENTS = [
   {
     name: 'Ford School',
+    slug: 'ford',
     logo: '/clients/ford.png',
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
@@ -33,11 +34,12 @@ export const CLIENTS = [
   },
   {
     name: 'BallotPedia',
+    slug: 'ballotpedia',
     logo: '/clients/ballotpedia.jpeg',
     brand: 'rgba(0, 102, 204, 1)',
     year: 2025,
     website: 'https://ballotpedia.org/',
-    caseUrl: '/clients/ballotpedia',
+  caseUrl: '/clients/ballotpedia',
     tags: ['Data Cleaning', 'Data Analysis', 'SQL', 'Tableau'],
     summary: 'Analyzed 2024 election data and built dashboards to communicate insights.',
     description: 'BallotPedia is a digital encyclopedia of American politics and elections, providing neutral, accurate, and comprehensive information to help voters make informed decisions.',
@@ -55,11 +57,12 @@ export const CLIENTS = [
   },
   {
     name: 'League of Legends',
+    slug: 'riot',
     logo: '/clients/riot_games.png',
     brand: 'rgba(255, 70, 85, 1)',
     year: 2025,
     website: 'https://www.leagueoflegends.com/',
-    caseUrl: '/clients/swiftplay',
+    caseUrl: '/clients/riot',
     tags: ['Graph Algorithms', 'API', 'Data Analysis', 'Python'],
     summary: 'Developed KPIs and conducted user studies for the Swiftplay game mode.',
     description: 'League of Legends is one of the world’s most popular online multiplayer games, developed by Riot Games. The Swiftplay mode was released as a faster-paced alternative to traditional gameplay, aiming to improve accessibility and player engagement.',
@@ -81,6 +84,7 @@ export const CLIENTS = [
   },
   {
     name: 'Homestream',
+    slug: 'homestream',
     logo: '/clients/homestream.png',
     brand: 'rgba(20, 20, 255, 1)',
     year: 2025,
@@ -107,10 +111,11 @@ export const CLIENTS = [
   },
   {
     name: 'Nomad Science',
+    slug: 'nomad',
     logo: '/clients/nomad_science.png',
     brand: 'rgba(231, 76, 60, 1)',
     year: 2025,
-    website: 'https://www.nomadscience.org/',
+    website: 'https://www.nomadsciencemongolia.org/',
     caseUrl: '/clients/nomad',
     tags: ['Pandas', 'SQL', 'Data Cleaning', 'ETL', 'Cloud Computing'],
     summary: 'Optimized proprietary archaeology data systems and created thorough user documentation.',
