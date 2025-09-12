@@ -31,13 +31,13 @@ export default function Home() {
              style={{backgroundImage: "radial-gradient(closest-side,#9080DB,transparent)"}} />
 
         <div className="relative w-full z-20 h-screen flex items-center justify-center">
-          <div className="mx-auto max-w-6xl px-4 py-24 justify-center text-center">
+          <div className="mx-auto max-w-6xl px-4 py-24 flex flex-col items-center justify-center text-center">
             <h1 className="max-w-4xl text-4xl font-semibold leading-tight sm:text-6xl">
               Michigan
               <span className="bg-gradient-to-r from-[#E6DAFF] to-[#9080DB] bg-clip-text text-transparent"> Data Consulting</span>
             </h1>
             <p className="mt-4 max-w-2xl text-white/70">
-              U-Ms Premier Data Consulting Club
+              U-M's Premier Data Consulting Club
             </p>
             <div className="mt-6 flex flex-wrap gap-3 items-center justify-center">
               <Link href="/join" className="rounded-full bg-gradient-to-r from-[#9080DB] to-[#E6DAFF] px-5 py-2.5 font-medium text-[#0b0b11] shadow-[0_10px_30px_rgba(144,128,219,0.18)]">Join Us!</Link>

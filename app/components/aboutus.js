@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function WhoWeAreSimple({
   title = 'Who we are',
-  text = 'We’re a student-led tech consulting club shipping real projects for real partners.',
+  text = 'We’re a student-led tech consulting club shipping real, data-driven projects for partners in industry, academia, and more.',
   images = [
     { src: '/team/team1.jpg', alt: 'Group Photo' },
     { src: '/team/team2.jpg', alt: 'Group Talking Photo 1' },
