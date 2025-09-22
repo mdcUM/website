@@ -92,6 +92,7 @@ export default function Timeline({ season='Fall 2025', interestUrl='', applyUrl=
               href={interestUrl}
               target="_blank"
               rel="noopener noreferrer"
+              disabled={true}
               className="inline-flex items-center justify-center rounded-full bg-gradient-to-l from-[#5B3FA6] to-[#1F1B50] px-5 py-2.5 font-medium text-white shadow-[0_10px_30px_rgba(144,128,219,0.18)]"
             >
               Interest Form Closed
@@ -112,6 +113,7 @@ export default function Timeline({ season='Fall 2025', interestUrl='', applyUrl=
               href={applyUrl}
               target="_blank"
               rel="noopener noreferrer"
+              disabled={true}
               className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#5B3FA6] to-[#1F1B50] px-5 py-2.5 font-medium text-white shadow-[0_10px_30px_rgba(144,128,219,0.18)]"
             >
               Application Not Open
