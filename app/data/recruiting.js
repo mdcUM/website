@@ -1,3 +1,4 @@
+// When future people see this you don't need to change the components, just change the strings below and it will automatically change the CSS for the buttons.
 export const INTEREST_URL = "" // Previous: 'https://forms.gle/MMw2gpNFQDsFGfTZ9';
 export const APPLY_URL = "" // Previous: "https://forms.gle/uFq1PdZ8fhL3jFX27";
 export const EVENTS = [
