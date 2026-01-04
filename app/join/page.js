@@ -24,7 +24,7 @@ export default function JoinPage(){
           </p>
       </div>
         <div>
-          <Timeline season="Fall 2025" interestUrl={INTEREST_URL} applyUrl={APPLY_URL} events={EVENTS} big />
+          <Timeline season="Winter 2026" interestUrl={INTEREST_URL} applyUrl={APPLY_URL} events={EVENTS} big />
         </div>
       </section>
 

@@ -55,7 +55,7 @@ function planetGradient(idx, active){
     : `radial-gradient(circle at 30% 30%, hsl(${h} 100% 92% / .35), hsl(${h} 55% 65% / .35) 60%, hsl(${h-20} 35% 25% / .35) 100%)`;
 }
 
-export default function Timeline({ season='Fall 2025', interestUrl='', applyUrl='', events=[] }) {
+export default function Timeline({ season='Winter 2026', interestUrl='', applyUrl='', events=[] }) {
   const sorted = [...events].sort((a,b)=>new Date(a.start)-new Date(b.start));
 
   return (
