@@ -3,10 +3,131 @@ export const CLIENTS_HOME = [
   'Riot Games', 
   'Ballotpedia',
   'Nomad Science',
-  'Homestream'
+  'Homestream',
+  'Institute for Research on Women & Gender',
+  'Michigan Medicine',
+  'Michigan Campaign Finance Network',
+  'Stanhope Research & Strategy',
 ];
 
 export const CLIENTS = [
+   {
+    name: 'Stanhope Research & Strategy',
+    slug: 'stanhope',
+    logo: '/clients/riot_adjacent.jpg',
+    brand: 'rgba(25, 123, 255, 1)',
+    year: 2025,
+    tags: ['ML Engineering', 'Local LLMS','Python'],
+    summary: 'Engineered full framework for video game NPC behaviors.',
+    work: [
+      'Novel NPC thinking mechanism',
+      'Behavioral simulation sandbox',
+      'Reinforcment learning proof of concept',
+    ],
+    impact: [{ label: 'Action', value: 'Affordance/Trust-Based' }, {label: 'Trust & Transparency', value: 'Selection'}],
+    testimonial: null,
+    website: '',
+    caseUrl: '/clients/stanhope',
+    description:
+      'Stanhope Research & Strategy, founded by Jim Stanhope, is a independent games R&D lab providing top video game consulting services.',
+    whatwedid:
+      'Over a semester, we developed a framework for LLM-controlled NPC behaviors in video games.'
+      + 'This provided flexible interactions between the player and their environment in natural language with inifinite replayability. '
+      + 'The project was an extension of the previous semester Riot Games project. ',
+  },
+  {
+    name: 'Michigan Campaign Finance Network',
+    slug: 'mcfn',
+    logo: '/clients/mcfn.jpeg',
+    brand: 'rgba(25, 123, 255, 1)',
+    year: 2025,
+    tags: ['System Design', 'Research','Strategy'],
+    summary: 'Designed and implemented a fully automated email alerts system to scrape campaign finance data.',
+    work: [
+      'Data tracking systems and workflows',
+      'Recommendations for centralized data system',
+      'Actionable roadmap for improving database structure',
+    ],
+    impact: [{ label: 'Automated Sourcing & Emailing Pipeline', value: '100%' }, { label: 'Active members receiving alerts', value: '1400+' }, {label: 'Users', value: '2000+'}],
+    testimonial: null,
+    website: 'https://mcfn.org/',
+    caseUrl: '/clients/mcfn',
+    description:
+      'MCFN is an independent, nonpartisan organization reporting on the impact of finance and politics in the state of Michigan since 1996. The nonprofit focuses on in-depth research and analysis to inform all voters on campaign finances.',
+    whatwedid:
+      'We created an email alerts system that scrapes live Michigan political financial transactions to deliver relevant and timely insights to the journalists, analysts, and MCFN-affiliated groups. '
+      + 'The platform filters and aggregates transactions, flagging contributions over $1000 and expenditures over $5000, and provides mailing list subscribers with same-day visibility into significant political spending in Michigan. ',
+  },
+  {
+    name: 'Ballotpedia F25',
+    slug: 'ballotpediaF25',
+    logo: '/clients/ballotpedia.jpeg',
+    brand: 'rgba(25, 123, 255, 1)',
+    year: 2025,
+    tags: ['Python', 'Strategy', 'Data Visualization'],
+    summary: 'Analyzed and visualized 6 years of data from the Ballotpedia Candidate Connections survey.',
+    work: [
+      'Lookerstudio analytics dashboard',
+      'Recommendations & roadmap for streamlining surveying',
+      'Report outlining findings from analysis',
+    ],
+    impact: [{ label: 'Data points analyzed', value: '20000+' }, { label: 'Dashboard pages', value: '6+' }, {label: 'Datasets analyzed', value: '5'}],
+    testimonial: null,
+    website: 'https://ballotpedia.org/',
+    caseUrl: '/clients/ballotpediaF25',
+    description:
+      'Ballotpedia is a digital encyclopedia of American politics and elections, providing neutral, accurate, and comprehensive information to help voters make informed decisions.',
+    whatwedid:
+      'We continued working with Ballotpedia from the previous semester, this time collaborating to identify gaps in candidate surveying and provide recommendations on improvement. '
+      + 'We merged and analyzed several datasets using Python and compiled our insights in a Lookerstudio dashboard and final deck, outlining key discoveries.  ',
+  },
+  {
+    name: 'Michigan Medicine & Psychiatry',
+    slug: 'psychiatry',
+    logo: '/clients/michigan_medicine.jpeg',
+    brand: 'rgba(25, 123, 255, 1)',
+    year: 2025,
+    tags: ['System Design', 'Research','Strategy'],
+    summary: 'Conducted a landscape analysis of data management practices to support improved information sharing and partnership coordination across a multidisciplinary health program.',
+    work: [
+      'Data tracking systems and workflows',
+      'Recommendations for centralized data system',
+      'Actionable roadmap for improving database structure',
+    ],
+    impact: [{ label: 'Significantly Streamlined', value: 'Staff Efficiency Workflow' }, { label: 'Key Interviews', value: '6+' }],
+    testimonial: null,
+    website: 'https://medschool.umich.edu/departments/psychiatry',
+    caseUrl: '/clients/psychiatry',
+    description:
+      'The University of Michigan’s Institute Department of Psychiatry has been a leader in advancing research in psychiatry for the past century, ranking amongst the top psychiatry care centers in the nation.',
+    whatwedid:
+      'Our team conducted a comprehensive review of the existing data management structures and analyzed gaps in data tracking & accessibility.'
+      + 'We surveyed staff and held interviews to develop a clear understanding of how data was collected and analyzed. '
+      + 'Ultimately, we delivered a multistep plan on creating a new centralized data system for Michigan Medicine.',
+  },
+  {
+    name: 'Institute for Research on Women & Gender',
+    slug: 'irwg',
+    logo: '/clients/irwg.jpeg',
+    brand: 'rgba(25, 123, 255, 1)',
+    year: 2025,
+    tags: ['Python', 'Graphs', 'Data Cleaning'],
+    summary: 'Visualized 30 years of seed grant impact through data analysis and graphs',
+    work: [
+      'Looker studio analytics dashboard',
+      'Python ETL pipelines',
+      'Website, email, and social media KPI campaigns',
+    ],
+    impact: [{ label: 'Cross-channel impressions ↑', value: '30%' }, { label: 'Applications ↑', value: '10%' }],
+    testimonial: null,
+    website: 'https://irwg.umich.edu/',
+    caseUrl: '/clients/irwg',
+    description:
+      'The University of Michigan’s Institute for Research on Women & Gender is an interdisciplinary unit that supports research on women, gender and sexuality at the University.',
+    whatwedid:
+      'The project aimed to build a sustainable system for analyzing, visualizing, and communicating the long term impact of the IRWG grant funding initiatives. '
+      + 'The final product ultimately support IRWG’s 30th anniversary celebration through a comprehensive impact report and dynamic tools for ongoing data storytelling and strategic communications',
+  },
   {
     name: 'Ford School',
     slug: 'ford',
@@ -53,7 +174,11 @@ export const CLIENTS = [
       'Editorial publication of findings',
     ],
     impact: [{label: 'Election insights delivered to readers', value: '100K+' }, { label: 'Interactive dashboards accessed', value: '5K+'}],
-    testimonial: null,
+    testimonial: {
+      quote: 'The data consulting team provided us in-depth and thoughtful analysis, taking our bulk data and some general questions we had, and diving into not only how to answer those questions, '
+      + 'but also keeping detailed notes on their methodology so we could repurpose, verify, and build off of their work later. Their final presentation was professional and overall the work exceeded my expectations. ',
+      author: 'Matt Latourelle, Director of Tech & Operations'
+    }
   },
   {
     name: 'League of Legends',
