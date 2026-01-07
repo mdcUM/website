@@ -4,10 +4,8 @@ export const CLIENTS_HOME = [
   'Ballotpedia',
   'Nomad Science',
   'Homestream',
-  'Institute for Research on Women & Gender',
   'Michigan Medicine',
-  'Michigan Campaign Finance Network',
-  'Stanhope Research & Strategy',
+  'MCFN'
 ];
 
 export const CLIENTS = [
