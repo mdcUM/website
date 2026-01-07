@@ -33,7 +33,7 @@ export const CLIENTS = [
       + 'The project ultimately increased cross-channel impressions by 30% and provided the Ford School with actionable insights to enhance its outreach and communications.',
   },
   {
-    name: 'BallotPedia',
+    name: 'Ballotpedia',
     slug: 'ballotpedia',
     logo: '/clients/ballotpedia.jpeg',
     brand: 'rgba(0, 102, 204, 1)',
@@ -42,7 +42,7 @@ export const CLIENTS = [
   caseUrl: '/clients/ballotpedia',
     tags: ['Data Cleaning', 'Data Analysis', 'SQL', 'Tableau'],
     summary: 'Analyzed 2024 election data and built dashboards to communicate insights.',
-    description: 'BallotPedia is a digital encyclopedia of American politics and elections, providing neutral, accurate, and comprehensive information to help voters make informed decisions.',
+    description: 'Ballotpedia is a digital encyclopedia of American politics and elections, providing neutral, accurate, and comprehensive information to help voters make informed decisions.',
     whatwedid:
       'We analyzed state and district election data from 2024 to assess the impact of campaign funding on election outcomes. '
       + 'Using SQL for data extraction and cleaning, we built pipelines to standardize disparate data sources. '
