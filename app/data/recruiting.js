@@ -8,5 +8,5 @@ export const EVENTS = [
   { title: 'Resume Workshop', start: '2026-01-19T19:00:00', end: '2026-01-19T20:00:00', location: '', description: 'Come by to learn how you can improve your resume, not just for when applying to clubs but also for jobs!' },
   { title: 'Inclusivity Panel', start: '2026-01-21T19:00:00', end: '2026-01-21T20:00:00', location: '', description: 'Come by to see how MDC handles inclusion as a whole — this is a great opportunity to get to know our community and ask last minute application questions!' },
   { title: '**Applications Close**', start: '2026-01-22T23:59:59', description: 'Please make sure to submit your application on time — no exceptions will be made for late submissions.' },
-  { title: 'Release Decision', start: '2026-01-25T10:00:00', location: 'Check your emails', description: 'Good luck!' },
+  { title: 'Release Decision', start: '2026-01-25T10:00:00', location: 'Check your emails!', description: 'Good luck!' },
 ];
