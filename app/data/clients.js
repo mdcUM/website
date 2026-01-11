@@ -1,6 +1,6 @@
 export const CLIENTS_HOME = [
   'Ford School',
-  'Riot Games', 
+  'Riot Games',
   'Ballotpedia',
   'Nomad Science',
   'Homestream',
@@ -9,23 +9,23 @@ export const CLIENTS_HOME = [
 ];
 
 export const CLIENTS = [
-   {
+  {
     name: 'Stanhope Research & Strategy',
     slug: 'stanhope',
     logo: '/clients/riot_adjacent.jpg',
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
-    tags: ['ML Engineering', 'Local LLMS','Python'],
+    tags: ['ML Engineering', 'Local LLMS', 'Python'],
     summary: 'Engineered full framework for video game NPC behaviors.',
     work: [
       'Novel NPC thinking mechanism',
       'Behavioral simulation sandbox',
       'Reinforcment learning proof of concept',
     ],
-    impact: [{ label: 'Action', value: 'Affordance/Trust-Based' }, {label: 'Trust & Transparency', value: 'Selection'}],
+    impact: [{ label: 'Action', value: 'Affordance/Trust-Based' }, { label: 'Trust & Transparency', value: 'Selection' }],
     testimonial: null,
     website: '',
-    caseUrl: '/clients/stanhope',
+    caseUrl: '/work/stanhope',
     description:
       'Stanhope Research & Strategy, founded by Jim Stanhope, is a independent games R&D lab providing top video game consulting services.',
     whatwedid:
@@ -39,14 +39,14 @@ export const CLIENTS = [
     logo: '/clients/mcfn.jpeg',
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
-    tags: ['System Design', 'Research','Strategy'],
+    tags: ['System Design', 'Research', 'Strategy'],
     summary: 'Designed and implemented a fully automated email alerts system to scrape campaign finance data.',
     work: [
       'Data tracking systems and workflows',
       'Recommendations for centralized data system',
       'Actionable roadmap for improving database structure',
     ],
-    impact: [{ label: 'Automated Sourcing & Emailing Pipeline', value: '100%' }, { label: 'Active members receiving alerts', value: '1400+' }, {label: 'Users', value: '2000+'}],
+    impact: [{ label: 'Automated Sourcing & Emailing Pipeline', value: '100%' }, { label: 'Active members receiving alerts', value: '1400+' }, { label: 'Users', value: '2000+' }],
     testimonial: null,
     website: 'https://mcfn.org/',
     caseUrl: '/clients/mcfn',
@@ -69,7 +69,7 @@ export const CLIENTS = [
       'Recommendations & roadmap for streamlining surveying',
       'Report outlining findings from analysis',
     ],
-    impact: [{ label: 'Data points analyzed', value: '20000+' }, { label: 'Dashboard pages', value: '6+' }, {label: 'Datasets analyzed', value: '5'}],
+    impact: [{ label: 'Data points analyzed', value: '20000+' }, { label: 'Dashboard pages', value: '6+' }, { label: 'Datasets analyzed', value: '5' }],
     testimonial: null,
     website: 'https://ballotpedia.org/',
     caseUrl: '/clients/ballotpediaF25',
@@ -85,7 +85,7 @@ export const CLIENTS = [
     logo: '/clients/michigan_medicine.jpeg',
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
-    tags: ['System Design', 'Research','Strategy'],
+    tags: ['System Design', 'Research', 'Strategy'],
     summary: 'Conducted a landscape analysis of data management practices to support improved information sharing and partnership coordination across a multidisciplinary health program.',
     work: [
       'Data tracking systems and workflows',
@@ -158,7 +158,7 @@ export const CLIENTS = [
     brand: 'rgba(0, 102, 204, 1)',
     year: 2025,
     website: 'https://ballotpedia.org/',
-  caseUrl: '/clients/ballotpedia',
+    caseUrl: '/clients/ballotpedia',
     tags: ['Data Cleaning', 'Data Analysis', 'SQL', 'Tableau'],
     summary: 'Analyzed 2024 election data and built dashboards to communicate insights.',
     description: 'Ballotpedia is a digital encyclopedia of American politics and elections, providing neutral, accurate, and comprehensive information to help voters make informed decisions.',
@@ -171,10 +171,10 @@ export const CLIENTS = [
       'Tableau dashboard development',
       'Editorial publication of findings',
     ],
-    impact: [{label: 'Election insights delivered to readers', value: '100K+' }, { label: 'Interactive dashboards accessed', value: '5K+'}],
+    impact: [{ label: 'Election insights delivered to readers', value: '100K+' }, { label: 'Interactive dashboards accessed', value: '5K+' }],
     testimonial: {
       quote: 'The data consulting team provided us in-depth and thoughtful analysis, taking our bulk data and some general questions we had, and diving into not only how to answer those questions, '
-      + 'but also keeping detailed notes on their methodology so we could repurpose, verify, and build off of their work later. Their final presentation was professional and overall the work exceeded my expectations. ',
+        + 'but also keeping detailed notes on their methodology so we could repurpose, verify, and build off of their work later. Their final presentation was professional and overall the work exceeded my expectations. ',
       author: 'Matt Latourelle, Director of Tech & Operations'
     }
   },
@@ -263,5 +263,5 @@ export const CLIENTS = [
       quote: 'The new system gave us confidence to manage and update our data collection without needing outside help.',
       author: 'Nomad Science team'
     }
-  }  
+  }
 ];

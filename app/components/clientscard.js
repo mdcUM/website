@@ -5,11 +5,12 @@ import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ExternalLink, X } from 'lucide-react';
 import { CLIENTS } from '../data/clients';
-import StickyHeader from './header';
 
-function initials(name){ const p=name.trim().split(/\s+/); return ((p[0]?.[0]||'')+(p[p.length-1]?.[0]||'')).toUpperCase(); }
+import Footer from './footer';
 
-const ALL_TAGS = Array.from(new Set(CLIENTS.flatMap(c=>c.tags))).sort();
+function initials(name) { const p = name.trim().split(/\s+/); return ((p[0]?.[0] || '') + (p[p.length - 1]?.[0] || '')).toUpperCase(); }
+
+const ALL_TAGS = Array.from(new Set(CLIENTS.flatMap(c => c.tags))).sort();
 
 function LogoTile({ name, logo, brand }) {
   const bg = `linear-gradient(135deg, ${brand}22, ${brand}11)`;
@@ -205,7 +206,7 @@ function ClientModal({ open, onClose, client }) {
 
 export default function ClientsView() {
   const [active, setActive] = useState(null);
-  const counts = useMemo(()=>({
+  const counts = useMemo(() => ({
     clients: CLIENTS.length,
     domains: ALL_TAGS.length,
   }), []);
@@ -223,7 +224,7 @@ export default function ClientsView() {
           </div>
           <h1 className="mt-4 font-display text-4xl md:text-5xl font-semibold tracking-tight">Clients</h1>
           <p className="mt-3 max-w-2xl text-white/80">  {"If you'd like to work with us, please email us at "}
- <a href="mailto:mdc-eboard@umich.edu" className="text-blue-500 underline">mdc-eboard@umich.edu</a></p>
+            <a href="mailto:mdc-eboard@umich.edu" className="text-blue-500 underline">mdc-eboard@umich.edu</a></p>
           <div className="mt-4 flex flex-wrap gap-2 text-sm text-white/70">
             <span className="rounded-full border border-white/15 px-3 py-1">{counts.clients} clients</span>
             <span className="rounded-full border border-white/15 px-3 py-1">{counts.domains} service areas</span>
@@ -234,7 +235,7 @@ export default function ClientsView() {
           {CLIENTS.map((c, i) => (
             <motion.button
               key={c.name}
-              onClick={()=>setActive(c)}
+              onClick={() => setActive(c)}
               whileHover={{ y: -2, scale: 1.01 }}
               transition={{ duration: 0.22 }}
               className="group relative rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-left"
@@ -247,20 +248,21 @@ export default function ClientsView() {
                     <span className="text-xs text-white/50">• {c.year}</span>
                   </div>
                   <div className="mt-1 flex flex-wrap gap-1.5">
-                    {c.tags.slice(0,3).map(t => <TagPillStatic key={t} text={t} />)}
+                    {c.tags.slice(0, 3).map(t => <TagPillStatic key={t} text={t} />)}
                   </div>
                 </div>
                 <span className="shrink-0 rounded-full border border-white/15 px-3 py-1 text-xs text-white/85 group-hover:bg-white/10">Details</span>
               </div>
 
               <div className="pointer-events-none absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition"
-                   style={{ boxShadow: 'inset 0 0 0 1px rgba(255,255,255,0.08)', background: 'linear-gradient(180deg, rgba(230,218,255,0.06), transparent 40%)' }} />
+                style={{ boxShadow: 'inset 0 0 0 1px rgba(255,255,255,0.08)', background: 'linear-gradient(180deg, rgba(230,218,255,0.06), transparent 40%)' }} />
             </motion.button>
           ))}
         </div>
       </section>
 
-      <ClientModal open={!!active} onClose={()=>setActive(null)} client={active} />
+      <ClientModal open={!!active} onClose={() => setActive(null)} client={active} />
+      <Footer social={{ instagram: "https://instagram.com/umich_mdc", email: "mdc-eboard@umich.edu", linkedin: "https://www.linkedin.com/company/michigan-data-consulting" }} />
     </main>
   );
 }

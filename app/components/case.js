@@ -1,5 +1,6 @@
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function CaseCard({ tag, title, blurb, link, logo }) {
   return (
@@ -7,11 +8,11 @@ export default function CaseCard({ tag, title, blurb, link, logo }) {
       <div className="h-40 bg-[radial-gradient(120%_120%_at_0%_0%,#E6DAFF,transparent),radial-gradient(120%_120%_at_100%_100%,#9080DB,transparent)] flex items-center justify-center">
         {logo ? (
           <div className="relative h-32 w-32">
-            <Image 
-              src={logo} 
-              alt={`${title} logo`} 
-              fill 
-              className="object-contain" 
+            <Image
+              src={logo}
+              alt={`${title} logo`}
+              fill
+              className="object-contain"
             />
           </div>
         ) : (
@@ -27,9 +28,9 @@ export default function CaseCard({ tag, title, blurb, link, logo }) {
         <span className="font-semibold">{title}</span>
         <p className="mt-1 text-sm text-white/70">{blurb}</p>
         {link && (
-          <a href={link} className="mt-3 inline-block text-sm font-medium text-[#9080DB] hover:underline">
+          <Link href={link} className="mt-3 inline-block text-sm font-medium text-[#9080DB] hover:underline">
             Learn more &rarr;
-          </a>
+          </Link>
         )}
       </div>
     </article>
