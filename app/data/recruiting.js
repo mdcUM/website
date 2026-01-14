@@ -1,6 +1,6 @@
 // When future people see this you don't need to change the components, just change the strings below and it will automatically change the CSS for the buttons.
 export const INTEREST_URL = "https://forms.gle/BJFLTZqUUuxG9MU69" // Previous: 'https://forms.gle/MMw2gpNFQDsFGfTZ9';
-export const APPLY_URL = "" // Previous: "https://forms.gle/uFq1PdZ8fhL3jFX27";
+export const APPLY_URL = "https://forms.gle/37cnJ3Edsa7bDme27" // Previous: "https://forms.gle/uFq1PdZ8fhL3jFX27";
 export const EVENTS = [
   { title: 'Winterfest', start: '2026-01-12T16:00:00', end: '2026-01-12T19:00:00', location: 'Michigan Union Rogel 6', description: 'Come get to know MDC! Talk to our members to see if our community is the right fit for you ' },
   { title: 'Mass Meeting 1', start: '2026-01-14T19:00:00', end: '2026-01-14T20:00:00', location: 'North Quad 2255', description: 'Meet some of the members and hear more about the club! Both mass meetings cover the same info, so we recommend just coming to one.' },
