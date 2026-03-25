@@ -75,7 +75,7 @@ export const MEMBERS = [
       },
       {
         name: 'Varshini Anbu',
-        title: 'Chair, Socials',
+        title: 'Chair, Marketing',
         grade: 'Junior',
         image: '/members/varshini_anbu.jpg',
         links: {
@@ -177,83 +177,135 @@ export const MEMBERS = [
     key: 'analysts',
     title: 'Analysts',
     members: [
-      { name: 'Ellis Balser', title: 'Analyst', grade: 'Junior', image: '/members/ellis_balser.jpg',
-        links: { email: 'ebalser@umich.edu', linkedin: 'https://www.linkedin.com/in/ellis-balser/' } },
+      {
+        name: 'Ellis Balser', title: 'Analyst', grade: 'Junior', image: '/members/ellis_balser.jpg',
+        links: { email: 'ebalser@umich.edu', linkedin: 'https://www.linkedin.com/in/ellis-balser/' }
+      },
 
-      { name: 'Nikita Benny', title: 'Analyst', grade: 'Sophomore', image: '/members/nikita_benny.jpg',
-        links: { email: 'nbenny@umich.edu', linkedin: 'https://www.linkedin.com/in/nikita-benny/' } },
+      {
+        name: 'Nikita Benny', title: 'Analyst', grade: 'Sophomore', image: '/members/nikita_benny.jpg',
+        links: { email: 'nbenny@umich.edu', linkedin: 'https://www.linkedin.com/in/nikita-benny/' }
+      },
 
-      { name: 'Charlene Chan', title: 'Analyst', grade: 'Freshman', image: '/members/charlene_chan.jpg',
-        links: { email: 'charlito@umich.edu', linkedin: 'https://www.linkedin.com/in/charlene-chan-610480238/' } },
+      {
+        name: 'Charlene Chan', title: 'Analyst', grade: 'Freshman', image: '/members/charlene_chan.jpg',
+        links: { email: 'charlito@umich.edu', linkedin: 'https://www.linkedin.com/in/charlene-chan-610480238/' }
+      },
 
-      { name: 'Kevin Chen', title: 'Analyst', grade: 'Junior',
-        links: { email: 'kchens@umich.edu', linkedin: 'https://www.linkedin.com/in/kevin-chen-90066930b/' } },
+      {
+        name: 'Kevin Chen', title: 'Analyst', grade: 'Junior',
+        links: { email: 'kchens@umich.edu', linkedin: 'https://www.linkedin.com/in/kevin-chen-90066930b/' }
+      },
 
-      { name: 'Jonathan Chen', title: 'Analyst', grade: 'Freshman', image: '/members/jonathan_chen.jpg',
-        links: { email: 'jchenn@umich.edu', linkedin: 'https://www.linkedin.com/in/jonathanchen5/' } },
+      {
+        name: 'Jonathan Chen', title: 'Analyst', grade: 'Freshman', image: '/members/jonathan_chen.jpg',
+        links: { email: 'jchenn@umich.edu', linkedin: 'https://www.linkedin.com/in/jonathanchen5/' }
+      },
 
-      { name: 'Stanley Czabanski', title: 'Analyst', grade: 'Junior', image: '/members/stanley_czabanski.jpg',
-        links: { email: 'sczaba@umich.edu', linkedin: 'https://www.linkedin.com/in/stanley-czabanski/' } },
+      {
+        name: 'Stanley Czabanski', title: 'Analyst', grade: 'Junior', image: '/members/stanley_czabanski.jpg',
+        links: { email: 'sczaba@umich.edu', linkedin: 'https://www.linkedin.com/in/stanley-czabanski/' }
+      },
 
-      { name: 'Lucy Gong', title: 'Analyst', grade: 'Junior', image: '/members/lucy_gong.jpg',
-        links: { email: 'lucygong@umich.edu', linkedin: 'https://www.linkedin.com/in/lucy-q-gong/' } },
+      {
+        name: 'Lucy Gong', title: 'Analyst', grade: 'Junior', image: '/members/lucy_gong.jpg',
+        links: { email: 'lucygong@umich.edu', linkedin: 'https://www.linkedin.com/in/lucy-q-gong/' }
+      },
 
-      { name: 'Sean Gretzinger', title: 'Analyst', grade: 'Sophomore', image: '/members/sean_gretzinger.jpg',
-        links: { email: 'scgretz@umich.edu', linkedin: 'https://www.linkedin.com/in/sean-gretzinger/' } },
+      {
+        name: 'Sean Gretzinger', title: 'Analyst', grade: 'Sophomore', image: '/members/sean_gretzinger.jpg',
+        links: { email: 'scgretz@umich.edu', linkedin: 'https://www.linkedin.com/in/sean-gretzinger/' }
+      },
 
-      { name: 'Elan Hong', title: 'Analyst', grade: 'Sophomore',
-        links: { email: 'elanhong@umich.edu', linkedin: 'https://www.linkedin.com/in/elan-hong/' } },
+      {
+        name: 'Elan Hong', title: 'Analyst', grade: 'Sophomore',
+        links: { email: 'elanhong@umich.edu', linkedin: 'https://www.linkedin.com/in/elan-hong/' }
+      },
 
-      { name: 'Joshua Kim', title: 'Analyst', grade: 'Sophomore',
-        links: { email: 'jjkk@umich.edu', linkedin: 'https://www.linkedin.com/in/joshuakim28/' } },
+      {
+        name: 'Joshua Kim', title: 'Analyst', grade: 'Sophomore',
+        links: { email: 'jjkk@umich.edu', linkedin: 'https://www.linkedin.com/in/joshuakim28/' }
+      },
 
-      { name: 'Marco Li', title: 'Analyst', grade: 'Senior', image: '/members/marco_li.jpg',
-        links: { email: 'mliqk@umich.edu', linkedin: 'https://www.linkedin.com/in/qinkai-marco-li-88841026a/' } },
+      {
+        name: 'Marco Li', title: 'Analyst', grade: 'Senior', image: '/members/marco_li.jpg',
+        links: { email: 'mliqk@umich.edu', linkedin: 'https://www.linkedin.com/in/qinkai-marco-li-88841026a/' }
+      },
 
-      { name: 'Michael Li', title: 'Analyst', grade: 'Sophomore', image: '/members/michael_li.jpg',
-        links: { email: 'lxymli@umich.edu', linkedin: 'https://www.linkedin.com/in/lxymli/' } },
+      {
+        name: 'Michael Li', title: 'Analyst', grade: 'Sophomore', image: '/members/michael_li.jpg',
+        links: { email: 'lxymli@umich.edu', linkedin: 'https://www.linkedin.com/in/lxymli/' }
+      },
 
-      { name: 'Henry Meinertzhagen', title: 'Analyst', grade: 'Sophomore', image: '/members/henry_meinertzhagen.jpg',
-        links: { email: 'hmeinert@umich.edu', linkedin: 'https://www.linkedin.com/in/henry-meinertzhagen-aa0014315/' } },
+      {
+        name: 'Henry Meinertzhagen', title: 'Analyst', grade: 'Sophomore', image: '/members/henry_meinertzhagen.jpg',
+        links: { email: 'hmeinert@umich.edu', linkedin: 'https://www.linkedin.com/in/henry-meinertzhagen-aa0014315/' }
+      },
 
-      { name: 'Evan Meranchik', title: 'Analyst', grade: 'Sophomore',
-        links: { email: 'emeranch@umich.edu', linkedin: 'https://www.linkedin.com/in/evan-meranchik/' } },
+      {
+        name: 'Evan Meranchik', title: 'Analyst', grade: 'Sophomore',
+        links: { email: 'emeranch@umich.edu', linkedin: 'https://www.linkedin.com/in/evan-meranchik/' }
+      },
 
-      { name: 'Nathanael Mitchell', title: 'Analyst', grade: 'Freshman', image: '/members/nathanael_mitchell.jpg',
-        links: { email: 'natmitch@umich.edu', linkedin: 'https://www.linkedin.com/in/nathanael-mitchell-17b716347/' } },
+      {
+        name: 'Nathanael Mitchell', title: 'Analyst', grade: 'Freshman', image: '/members/nathanael_mitchell.jpg',
+        links: { email: 'natmitch@umich.edu', linkedin: 'https://www.linkedin.com/in/nathanael-mitchell-17b716347/' }
+      },
 
-      { name: 'Eric Ni', title: 'Analyst', grade: 'Freshman', image: '/members/eric_ni.jpg',
-        links: { email: 'nier@umich.edu', linkedin: 'https://www.linkedin.com/in/erichni/' } },
+      {
+        name: 'Eric Ni', title: 'Analyst', grade: 'Freshman', image: '/members/eric_ni.jpg',
+        links: { email: 'nier@umich.edu', linkedin: 'https://www.linkedin.com/in/erichni/' }
+      },
 
-      { name: 'Lilly Penner', title: 'Analyst', grade: 'Junior',
-        links: { email: 'lpen@umich.edu', linkedin: 'https://www.linkedin.com/in/l-penner/' } },
+      {
+        name: 'Lilly Penner', title: 'Analyst', grade: 'Junior',
+        links: { email: 'lpen@umich.edu', linkedin: 'https://www.linkedin.com/in/l-penner/' }
+      },
 
-      { name: 'Sophia Pessoa', title: 'Analyst', grade: 'Junior', image: '/members/sophia_pessoa.jpg',
-        links: { email: 'sapessoa@umich.edu', linkedin: 'https://www.linkedin.com/in/sophiapessoa/' } },
+      {
+        name: 'Sophia Pessoa', title: 'Analyst', grade: 'Junior', image: '/members/sophia_pessoa.jpg',
+        links: { email: 'sapessoa@umich.edu', linkedin: 'https://www.linkedin.com/in/sophiapessoa/' }
+      },
 
-      { name: 'Ethan Peterson', title: 'Analyst', grade: 'Sophomore',
-        links: { email: 'ethpet@umich.edu', linkedin: 'https://www.linkedin.com/in/ethan-robert-peterson/' } },
+      {
+        name: 'Ethan Peterson', title: 'Analyst', grade: 'Sophomore',
+        links: { email: 'ethpet@umich.edu', linkedin: 'https://www.linkedin.com/in/ethan-robert-peterson/' }
+      },
 
-      { name: 'Adhit Ranjan', title: 'Analyst', grade: 'Freshman',
-        links: { email: 'adhit@umich.edu', linkedin: 'https://www.linkedin.com/in/adhit-ranjan-a7193a32a/' } },
+      {
+        name: 'Adhit Ranjan', title: 'Analyst', grade: 'Freshman',
+        links: { email: 'adhit@umich.edu', linkedin: 'https://www.linkedin.com/in/adhit-ranjan-a7193a32a/' }
+      },
 
-      { name: 'David Ren', title: 'Analyst', grade: 'Junior', image: '/members/david_ren.jpg',
-        links: { email: 'davidren@umich.edu', linkedin: '' } },
+      {
+        name: 'David Ren', title: 'Analyst', grade: 'Junior', image: '/members/david_ren.jpg',
+        links: { email: 'davidren@umich.edu', linkedin: '' }
+      },
 
-      { name: 'Karla Vega', title: 'Analyst', grade: 'Senior', image: '/members/karla_vega.jpg',
-        links: { email: 'kvega@umich.edu', linkedin: 'https://www.linkedin.com/in/davidyren/' } },
+      {
+        name: 'Karla Vega', title: 'Analyst', grade: 'Senior', image: '/members/karla_vega.jpg',
+        links: { email: 'kvega@umich.edu', linkedin: 'https://www.linkedin.com/in/davidyren/' }
+      },
 
-      { name: 'Krishanth Venkatachalam', title: 'Analyst', grade: 'Junior',
-        links: { email: 'krishven@umich.edu', linkedin: 'https://www.linkedin.com/in/krishanth-venkatachalam/' } },
+      {
+        name: 'Krishanth Venkatachalam', title: 'Analyst', grade: 'Junior',
+        links: { email: 'krishven@umich.edu', linkedin: 'https://www.linkedin.com/in/krishanth-venkatachalam/' }
+      },
 
-      { name: 'David Watkins', title: 'Analyst', grade: 'Junior', image: '/members/david_watkins.jpg',
-        links: { email: 'dwatkit@umich.edu', linkedin: 'https://www.linkedin.com/in/davidwatkins5/' } },
+      {
+        name: 'David Watkins', title: 'Analyst', grade: 'Junior', image: '/members/david_watkins.jpg',
+        links: { email: 'dwatkit@umich.edu', linkedin: 'https://www.linkedin.com/in/davidwatkins5/' }
+      },
 
-      { name: 'Edward Zhang', title: 'Analyst', grade: 'Freshman', image: '/members/edward_zhang.jpg',
-        links: { email: 'edwardyz@umich.edu', linkedin: 'https://www.linkedin.com/in/edwardyz/' } },
+      {
+        name: 'Edward Zhang', title: 'Analyst', grade: 'Freshman', image: '/members/edward_zhang.jpg',
+        links: { email: 'edwardyz@umich.edu', linkedin: 'https://www.linkedin.com/in/edwardyz/' }
+      },
 
-      { name: 'Mathew Zheng', title: 'Analyst', grade: 'Junior',
-        links: { email: 'mathewz@umich.edu', linkedin: 'https://www.linkedin.com/in/mathew-zheng/' } }
+      {
+        name: 'Mathew Zheng', title: 'Analyst', grade: 'Junior',
+        links: { email: 'mathewz@umich.edu', linkedin: 'https://www.linkedin.com/in/mathew-zheng/' }
+      }
     ],
 
   },

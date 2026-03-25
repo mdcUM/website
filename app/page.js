@@ -124,6 +124,20 @@ export default function Home() {
         </motion.div>
       </section>
 
+      <section id="sponsors" className="mx-auto max-w-6xl px-4 pb-24">
+        <motion.div {...fadeInUp}>
+          <SectionHeader>Our Sponsors</SectionHeader>
+          <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-16 md:gap-24">
+            <div className="transition-all duration-300 hover:scale-105 flex items-center justify-center h-40 md:h-56 w-full sm:w-auto max-w-[500px]">
+              <img src="/sponsors/lsa-barger.jpg" alt="LSA Barger Leadership Institute" className="max-h-full max-w-full object-contain" />
+            </div>
+            <div className="transition-all duration-300 hover:scale-105 flex items-center justify-center h-40 md:h-56 w-full sm:w-auto max-w-[500px]">
+              <img src="/sponsors/esg.jpg" alt="Engineering Student Government" className="max-h-full max-w-full object-contain" />
+            </div>
+          </div>
+        </motion.div>
+      </section>
+
       <Footer social={{ instagram: "https://instagram.com/umich_mdc", email: "mdc-eboard@umich.edu", linkedin: "https://www.linkedin.com/company/michigan-data-consulting" }} />
 
       <style jsx>{`
