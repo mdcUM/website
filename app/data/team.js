@@ -243,11 +243,6 @@ export const MEMBERS = [
       },
 
       {
-        name: 'Evan Meranchik', title: 'Analyst', grade: 'Sophomore',
-        links: { email: 'emeranch@umich.edu', linkedin: 'https://www.linkedin.com/in/evan-meranchik/' }
-      },
-
-      {
         name: 'Nathanael Mitchell', title: 'Analyst', grade: 'Freshman', image: '/members/nathanael_mitchell.jpg',
         links: { email: 'natmitch@umich.edu', linkedin: 'https://www.linkedin.com/in/nathanael-mitchell-17b716347/' }
       },
