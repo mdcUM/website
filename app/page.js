@@ -137,6 +137,9 @@ export default function Home() {
             <div className="transition-all duration-300 hover:scale-105 flex items-center justify-center h-40 md:h-56 w-full sm:w-auto max-w-[500px]">
               <img src="/sponsors/SOFC.png" alt="Student Organization Funding Committee" className="max-h-full max-w-full object-contain" />
             </div>
+            <div className="transition-all duration-300 hover:scale-105 flex items-center justify-center h-40 md:h-56 w-full sm:w-auto max-w-[500px]">
+              <img src="/sponsors/LSA-SG.png" alt="LSA Student Government" className="max-h-full max-w-full object-contain" />
+            </div>
           </div>
         </motion.div>
       </section>
