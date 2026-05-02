@@ -49,7 +49,7 @@ export const CLIENTS = [
     impact: [{ label: 'Automated Sourcing & Emailing Pipeline', value: '100%' }, { label: 'Active members receiving alerts', value: '1400+' }, { label: 'Users', value: '2000+' }],
     testimonial: null,
     website: 'https://mcfn.org/',
-    caseUrl: '/clients/mcfn',
+    caseUrl: '/work/mcfn',
     description:
       'MCFN is an independent, nonpartisan organization reporting on the impact of finance and politics in the state of Michigan since 1996. The nonprofit focuses on in-depth research and analysis to inform all voters on campaign finances.',
     whatwedid:
@@ -72,7 +72,7 @@ export const CLIENTS = [
     impact: [{ label: 'Data points analyzed', value: '20000+' }, { label: 'Dashboard pages', value: '6+' }, { label: 'Datasets analyzed', value: '5' }],
     testimonial: null,
     website: 'https://ballotpedia.org/',
-    caseUrl: '/clients/ballotpediaF25',
+    caseUrl: '/work/ballotpediaF25',
     description:
       'Ballotpedia is a digital encyclopedia of American politics and elections, providing neutral, accurate, and comprehensive information to help voters make informed decisions.',
     whatwedid:
@@ -95,7 +95,7 @@ export const CLIENTS = [
     impact: [{ label: 'Significantly Streamlined', value: 'Staff Efficiency Workflow' }, { label: 'Key Interviews', value: '6+' }],
     testimonial: null,
     website: 'https://medschool.umich.edu/departments/psychiatry',
-    caseUrl: '/clients/psychiatry',
+    caseUrl: '/work/psychiatry',
     description:
       'The University of Michigan’s Institute Department of Psychiatry has been a leader in advancing research in psychiatry for the past century, ranking amongst the top psychiatry care centers in the nation.',
     whatwedid:
@@ -119,7 +119,7 @@ export const CLIENTS = [
     impact: [{ label: 'Cross-channel impressions ↑', value: '30%' }, { label: 'Applications ↑', value: '10%' }],
     testimonial: null,
     website: 'https://irwg.umich.edu/',
-    caseUrl: '/clients/irwg',
+    caseUrl: '/work/irwg',
     description:
       'The University of Michigan’s Institute for Research on Women & Gender is an interdisciplinary unit that supports research on women, gender and sexuality at the University.',
     whatwedid:
@@ -142,7 +142,7 @@ export const CLIENTS = [
     impact: [{ label: 'Cross-channel impressions ↑', value: '30%' }, { label: 'Applications ↑', value: '10%' }],
     testimonial: { quote: 'Had the ability to just focus on product work and not worry about the technical side of things.', author: 'Ford marketing team' },
     website: 'https://fordschool.umich.edu/',
-    caseUrl: '/clients/ford',
+    caseUrl: '/work/ford',
     description:
       'The University of Michigan’s Gerald R. Ford School of Public Policy is a leading public policy school that focuses on research, education, and practice to address pressing social, economic, and political challenges.',
     whatwedid:
@@ -158,7 +158,7 @@ export const CLIENTS = [
     brand: 'rgba(0, 102, 204, 1)',
     year: 2025,
     website: 'https://ballotpedia.org/',
-    caseUrl: '/clients/ballotpedia',
+    caseUrl: '/work/ballotpedia',
     tags: ['Data Cleaning', 'Data Analysis', 'SQL', 'Tableau'],
     summary: 'Analyzed 2024 election data and built dashboards to communicate insights.',
     description: 'Ballotpedia is a digital encyclopedia of American politics and elections, providing neutral, accurate, and comprehensive information to help voters make informed decisions.',
@@ -185,7 +185,7 @@ export const CLIENTS = [
     brand: 'rgba(255, 70, 85, 1)',
     year: 2025,
     website: 'https://www.leagueoflegends.com/',
-    caseUrl: '/clients/riot',
+    caseUrl: '/work/riot',
     tags: ['Graph Algorithms', 'API', 'Data Analysis', 'Python'],
     summary: 'Developed KPIs and conducted user studies for the Swiftplay game mode.',
     description: 'League of Legends is one of the world’s most popular online multiplayer games, developed by Riot Games. The Swiftplay mode was released as a faster-paced alternative to traditional gameplay, aiming to improve accessibility and player engagement.',
@@ -212,7 +212,7 @@ export const CLIENTS = [
     brand: 'rgba(20, 20, 255, 1)',
     year: 2025,
     // website: 'https://example.com/',
-    caseUrl: '/clients/homestream',
+    caseUrl: '/work/homestream',
     tags: ['ML Engineering', 'React', 'UX Design'],
     summary: 'Developed RAG pipelines and a chatbot to support first-time home buyers.',
     description: 'The Home Buyer Assistant project focused on leveraging AI to simplify the property search and buying process. By combining recommendation systems with an interactive chatbot, the platform helps prospective buyers discover suitable homes and navigate the complex steps of purchasing their first property.',
@@ -239,7 +239,7 @@ export const CLIENTS = [
     brand: 'rgba(231, 76, 60, 1)',
     year: 2025,
     website: 'https://www.nomadsciencemongolia.org/',
-    caseUrl: '/clients/nomad',
+    caseUrl: '/work/nomad',
     tags: ['Pandas', 'SQL', 'Data Cleaning', 'ETL', 'Cloud Computing'],
     summary: 'Optimized proprietary archaeology data systems and created thorough user documentation.',
     description: 'Nomad Science is a 501(c)(3) nonprofit dedicated to the preservation and research of Mongolian archaeology. In the course of their work, data collection, storage, security, and sharing are critical. About 8 years ago, Nomad Science transitioned from paper forms and Excel sheets to digitized data collection on tablets. However, the system was designed by a former staff member, and current team members lacked confidence in maintaining or updating it. With technology evolving rapidly, the organization sought to optimize its system or migrate to better tools.',

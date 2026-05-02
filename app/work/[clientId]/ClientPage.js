@@ -78,7 +78,7 @@ export default function ClientPage({ slug }) {
           <div className="text-center">
             <h1 className="font-display text-4xl font-semibold mb-4">Client Not Found</h1>
             <p className="text-white/70 mb-6">The requested client {slug} does not exist.</p>
-            <Link href="/clients" 
+            <Link href="/work" 
                   className="inline-flex items-center rounded-full bg-gradient-to-r from-[#9080DB] to-[#E6DAFF] px-6 py-3 text-sm font-medium text-[#0b0b11] shadow-[0_10px_30px_rgba(144,128,219,0.18)]">
               <ArrowLeft className="mr-2 h-4 w-4" />
               Back to Clients
@@ -106,7 +106,7 @@ export default function ClientPage({ slug }) {
           animate={{ opacity: 1, y: 0 }}
           className="mb-8"
         >
-          <Link href="/clients" 
+          <Link href="/work" 
                 className="inline-flex items-center text-sm text-white/70 hover:text-white/90 transition-colors mt-8">
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to all clients

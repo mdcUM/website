@@ -4,6 +4,7 @@ import React, { useMemo, useState, useEffect } from 'react';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ExternalLink, X } from 'lucide-react';
+import Link from 'next/link';
 import { CLIENTS } from '../data/clients';
 
 import Footer from './footer';
@@ -176,12 +177,12 @@ function ClientModal({ open, onClose, client }) {
               {(client.website || client.caseUrl) && (
                 <div className="mt-6 flex flex-col-reverse gap-2 sm:flex-row sm:items-center sm:justify-end border-t border-white/10 pt-4">
                   {client.caseUrl && (
-                    <a
+                    <Link
                       href={client.caseUrl}
                       className="inline-flex items-center justify-center rounded-full border border-white/15 px-4 py-2 text-sm text-white/90 hover:bg-white/10"
                     >
                       Read case
-                    </a>
+                    </Link>
                   )}
                   {client.website && (
                     <a
