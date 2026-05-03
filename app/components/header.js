@@ -38,7 +38,7 @@ export default function StickyHeader() {
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <Link href="/" className="flex flex-row items-center gap-2 hover:bg-white/10 rounded-lg p-1">
-          <Image src="/mdc.jpg" alt="MDC Logo" className="h-8" width={32} height={32} />
+          <Image src="/mdc.webp" alt="MDC Logo" className="h-8" width={32} height={32} />
           <span className="font-semibold tracking-tight ">MDC</span>
         </Link>
 

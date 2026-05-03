@@ -102,9 +102,9 @@ export default function ServicesPage() {
             <section className="relative z-10 mx-auto max-w-6xl px-4 py-20">
                 <h2 className="text-3xl font-semibold text-center mb-12">Success Stories</h2>
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                    <CaseCard tag="Data" title="Ford School" blurb="KPI analysis and analytics dashboarding." link="/work/ford" logo="/clients/ford.png" />
-                    <CaseCard tag="ML" title="Homestream" blurb="Developed RAG pipelines and chatbot for home buyers." link="/work/homestream" logo="/clients/homestream.png" />
-                    <CaseCard tag="Data" title="Nomad Science" blurb="Optimized archaeology data systems and documentation." link="/work/nomad" logo="/clients/nomad_science.png" />
+                    <CaseCard tag="Data" title="Ford School" blurb="KPI analysis and analytics dashboarding." link="/work/ford" logo="/clients/ford.webp" />
+                    <CaseCard tag="ML" title="Homestream" blurb="Developed RAG pipelines and chatbot for home buyers." link="/work/homestream" logo="/clients/homestream.webp" />
+                    <CaseCard tag="Data" title="Nomad Science" blurb="Optimized archaeology data systems and documentation." link="/work/nomad" logo="/clients/nomad_science.webp" />
                 </div>
                 <div className="mt-12 text-center">
                     <Link href="/work" className="inline-flex items-center text-[#9080DB] hover:text-[#E6DAFF] font-medium transition">

@@ -7,9 +7,9 @@ export default function WhoWeAreSimple({
   title = 'Who we are',
   text = 'We’re a student-led tech consulting club shipping real, data-driven projects for partners in industry, academia, and more.',
   images = [
-    { src: '/team/smiling.jpg', alt: 'Group Photo' },
-    { src: '/team/laughing.jpg', alt: 'Group Talking Photo 1' },
-    { src: '/team/laughing2.jpg', alt: 'Group Talking Photo 2' }
+    { src: '/team/smiling.webp', alt: 'Group Photo' },
+    { src: '/team/laughing.webp', alt: 'Group Talking Photo 1' },
+    { src: '/team/laughing2.webp', alt: 'Group Talking Photo 2' }
   ],
   auto = true,
   interval = 3000,

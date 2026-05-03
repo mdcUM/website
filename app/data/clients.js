@@ -12,7 +12,7 @@ export const CLIENTS = [
   {
     name: 'Stanhope Research & Strategy',
     slug: 'stanhope',
-    logo: '/clients/riot_adjacent.jpg',
+    logo: '/clients/riot_adjacent.webp',
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
     tags: ['ML Engineering', 'Local LLMS', 'Python'],
@@ -36,7 +36,7 @@ export const CLIENTS = [
   {
     name: 'Michigan Campaign Finance Network',
     slug: 'mcfn',
-    logo: '/clients/mcfn.jpeg',
+    logo: '/clients/mcfn.webp',
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
     tags: ['System Design', 'Research', 'Strategy'],
@@ -59,7 +59,7 @@ export const CLIENTS = [
   {
     name: 'Ballotpedia F25',
     slug: 'ballotpediaF25',
-    logo: '/clients/ballotpedia.jpeg',
+    logo: '/clients/ballotpedia.webp',
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
     tags: ['Python', 'Strategy', 'Data Visualization'],
@@ -82,7 +82,7 @@ export const CLIENTS = [
   {
     name: 'Michigan Medicine & Psychiatry',
     slug: 'psychiatry',
-    logo: '/clients/michigan_medicine.jpeg',
+    logo: '/clients/michigan_medicine.webp',
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
     tags: ['System Design', 'Research', 'Strategy'],
@@ -106,7 +106,7 @@ export const CLIENTS = [
   {
     name: 'Institute for Research on Women & Gender',
     slug: 'irwg',
-    logo: '/clients/irwg.jpeg',
+    logo: '/clients/irwg.webp',
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
     tags: ['Python', 'Graphs', 'Data Cleaning'],
@@ -129,7 +129,7 @@ export const CLIENTS = [
   {
     name: 'Ford School',
     slug: 'ford',
-    logo: '/clients/ford.png',
+    logo: '/clients/ford.webp',
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
     tags: ['Data Visualization', 'Python', 'R'],
@@ -154,7 +154,7 @@ export const CLIENTS = [
   {
     name: 'Ballotpedia',
     slug: 'ballotpedia',
-    logo: '/clients/ballotpedia.jpeg',
+    logo: '/clients/ballotpedia.webp',
     brand: 'rgba(0, 102, 204, 1)',
     year: 2025,
     website: 'https://ballotpedia.org/',
@@ -181,7 +181,7 @@ export const CLIENTS = [
   {
     name: 'League of Legends',
     slug: 'riot',
-    logo: '/clients/riot_games.png',
+    logo: '/clients/riot_games.webp',
     brand: 'rgba(255, 70, 85, 1)',
     year: 2025,
     website: 'https://www.leagueoflegends.com/',
@@ -208,7 +208,7 @@ export const CLIENTS = [
   {
     name: 'Homestream',
     slug: 'homestream',
-    logo: '/clients/homestream.png',
+    logo: '/clients/homestream.webp',
     brand: 'rgba(20, 20, 255, 1)',
     year: 2025,
     // website: 'https://example.com/',
@@ -235,7 +235,7 @@ export const CLIENTS = [
   {
     name: 'Nomad Science',
     slug: 'nomad',
-    logo: '/clients/nomad_science.png',
+    logo: '/clients/nomad_science.webp',
     brand: 'rgba(231, 76, 60, 1)',
     year: 2025,
     website: 'https://www.nomadsciencemongolia.org/',

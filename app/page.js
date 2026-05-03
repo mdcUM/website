@@ -117,9 +117,9 @@ export default function Home() {
         <motion.div {...fadeInUp}>
           <SectionHeader>Selected work</SectionHeader>
           <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <CaseCard tag="Data" title="Ford School" blurb="KPI analysis and analytics dashboarding." link="/work/ford" logo="/clients/ford.png" />
-            <CaseCard tag="ML" title="Homestream" blurb="Developed RAG pipelines and chatbot for home buyers." link="/work/homestream" logo="/clients/homestream.png" />
-            <CaseCard tag="Data" title="Nomad Science" blurb="Optimized archaeology data systems and documentation." link="/work/nomad" logo="/clients/nomad_science.png" />
+            <CaseCard tag="Data" title="Ford School" blurb="KPI analysis and analytics dashboarding." link="/work/ford" logo="/clients/ford.webp" />
+            <CaseCard tag="ML" title="Homestream" blurb="Developed RAG pipelines and chatbot for home buyers." link="/work/homestream" logo="/clients/homestream.webp" />
+            <CaseCard tag="Data" title="Nomad Science" blurb="Optimized archaeology data systems and documentation." link="/work/nomad" logo="/clients/nomad_science.webp" />
           </div>
         </motion.div>
       </section>
@@ -129,16 +129,16 @@ export default function Home() {
           <SectionHeader>Our Sponsors</SectionHeader>
           <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-16 md:gap-24">
             <div className="transition-all duration-300 hover:scale-105 flex items-center justify-center h-40 md:h-56 w-full sm:w-auto max-w-[500px]">
-              <img src="/sponsors/lsa-barger.jpg" alt="LSA Barger Leadership Institute" className="max-h-full max-w-full object-contain" />
+              <img src="/sponsors/lsa-barger.webp" alt="LSA Barger Leadership Institute" className="max-h-full max-w-full object-contain" />
             </div>
             <div className="transition-all duration-300 hover:scale-105 flex items-center justify-center h-40 md:h-56 w-full sm:w-auto max-w-[500px]">
-              <img src="/sponsors/esg.jpg" alt="Engineering Student Government" className="max-h-full max-w-full object-contain" />
+              <img src="/sponsors/esg.webp" alt="Engineering Student Government" className="max-h-full max-w-full object-contain" />
             </div>
             <div className="transition-all duration-300 hover:scale-105 flex items-center justify-center h-40 md:h-56 w-full sm:w-auto max-w-[500px]">
-              <img src="/sponsors/SOFC.png" alt="Student Organization Funding Committee" className="max-h-full max-w-full object-contain" />
+              <img src="/sponsors/SOFC.webp" alt="Student Organization Funding Committee" className="max-h-full max-w-full object-contain" />
             </div>
             <div className="transition-all duration-300 hover:scale-105 flex items-center justify-center h-40 md:h-56 w-full sm:w-auto max-w-[500px]">
-              <img src="/sponsors/LSA-SG.png" alt="LSA Student Government" className="max-h-full max-w-full object-contain" />
+              <img src="/sponsors/LSA-SG.webp" alt="LSA Student Government" className="max-h-full max-w-full object-contain" />
             </div>
           </div>
         </motion.div>
