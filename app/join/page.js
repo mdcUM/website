@@ -15,6 +15,16 @@ export default function JoinPage() {
       <div className="pointer-events-none absolute -bottom-24 -right-20 h-[32rem] w-[32rem] opacity-50 blur-3xl"
         style={{ backgroundImage: 'radial-gradient(closest-side,#9080DB,transparent)' }} />
 
+      {/* Timeline Section */}
+      <section className="relative z-10 mx-auto max-w-6xl px-4 py-20">
+        <h2 className="text-3xl font-semibold text-center mb-12">F26 MDC Recruitment</h2>
+        <p className="text-center text-white/70 max-w-2xl mx-auto mb-12">
+          Our Fall 2026 recruitment cycle is currently being finalized. Event details, workshops, and application deadlines will be posted soon.
+          Fill out our interest form and check back for updates!
+        </p>
+        <Timeline season="Fall 2026" interestUrl={INTEREST_URL} applyUrl={APPLY_URL} events={EVENTS} big />
+      </section>
+
       {/* Hero Section */}
       <section className="relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-32 text-center">
         <h1 className="font-display text-4xl md:text-6xl font-semibold tracking-tight">
@@ -38,11 +48,11 @@ export default function JoinPage() {
       <section className="relative z-10 mx-auto max-w-6xl px-4 py-16">
         <div className="grid md:grid-cols-3 gap-8">
           <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.04] transition">
-            <h3 className="text-xl font-semibold text-[#E6DAFF] mb-3">Professional Growth</h3>
+            <h3 className="text-xl font-semibold text-[#E6DAFF] mb-3">Projects</h3>
             <p className="text-white/70">Hands-on experience with Fortune 500s and startups. Specialized workshops in ML, Data Engineering, and Strategy.</p>
           </div>
           <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.04] transition">
-            <h3 className="text-xl font-semibold text-[#9080DB] mb-3">Mentorship</h3>
+            <h3 className="text-xl font-semibold text-[#9080DB] mb-3">Education & Skill Development</h3>
             <p className="text-white/70">Direct access to upperclassmen at top firms like Roblox, Capital One, Amazon, and more.</p>
           </div>
           <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.04] transition">
@@ -81,11 +91,7 @@ export default function JoinPage() {
 
 
 
-      {/* Timeline Section */}
-      <section className="relative z-10 mx-auto max-w-6xl px-4 py-20">
-        <h2 className="text-3xl font-semibold text-center mb-12">Recruiting Timeline</h2>
-        <Timeline season="Winter 2026" interestUrl={INTEREST_URL} applyUrl={APPLY_URL} events={EVENTS} big />
-      </section>
+
 
       {/* FAQ */}
       <section className="relative z-10 mx-auto max-w-4xl px-4 pb-24">
