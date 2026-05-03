@@ -87,40 +87,45 @@ export default function Home() {
         </div>
       </section>
 
-      <WhoWeAreSimple />
       {/* Hero Section */}
-      <section className="relative z-10 mx-auto max-w-6xl px-4 py-12 md:py-20 text-center">
-        <h1 className="font-display text-4xl md:text-6xl font-semibold tracking-tight">
-          Welcome to... <br />
+      <section className="relative z-10 mx-auto max-w-6xl px-4 py-10 md:py-16 text-center">
+        <h1 className="font-display text-4xl md:text-5xl font-semibold tracking-tight">
+          Welcome to <br />
           <span className="bg-gradient-to-r from-[#E6DAFF] to-[#9080DB] bg-clip-text text-transparent">Tech Consulting at MDC</span>
         </h1>
         <p className="mt-6 max-w-2xl mx-auto text-lg text-white/80 leading-relaxed">
-          Join Michigan&apos;s premier student-led data consulting club. Work on real impactful projects, develop your skills, and find a community
-          of driven analysts.
+          Work on impactful real-world projects, build your skills in data science, and find a community of driven analysts from a diverse range of fields.
+
         </p>
       </section>
 
       {/*images*/}
-      <section className="relative z-10 mx-auto max-w-6xl px-4 py-10">
-        <div className="flex justify-center gap-6 overflow-x-auto snap-x snap-mandatory">
+      <section className="relative z-10 mx-auto max-w-6xl px-2 py-8 overflow-hidden">
 
-          <div className="min-w-[260px] md:min-w-[320px] snap-center rounded-2xl overflow-hidden border border-white/10">
-            <img src="/team/pic3.webp" className="h-full w-full object-cover" />
+        <div className="relative h-[220px] md:h-[280px] overflow-hidden">
+
+          <div className="flex w-max gap-6 animate-[marquee_35s_linear_infinite] h-full items-center">
+
+            {[...Array(2)].map((_, setIdx) =>
+              ["pic3.webp", "pic5.webp", "pic2.webp", "pic4.webp", "pic1.webp", "pic6.webp", "pic7.webp"].map((img, i) => (
+                <div
+                  key={`${setIdx}-${i}`}
+                  className="h-[180px] md:h-[240px] w-[260px] md:w-[320px] flex-shrink-0 rounded-2xl overflow-hidden border border-white/10"
+                >
+                  <img
+                    src={`/team/${img}`}
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+              ))
+            )}
+
           </div>
-
-          <div className="min-w-[260px] md:min-w-[320px] snap-center rounded-2xl overflow-hidden border border-white/10">
-            <img src="/team/pic1.webp" className="h-full w-full object-cover" />
-          </div>
-
-          <div className="min-w-[260px] md:min-w-[320px] snap-center rounded-2xl overflow-hidden border border-white/10">
-            <img src="/team/pic2.webp" className="h-full w-full object-cover" />
-          </div>
-
         </div>
       </section>
 
       {/* Value Pillars */}
-      <section className="relative z-10 mx-auto max-w-6xl px-4 py-16">
+      <section className="relative z-10 mx-auto max-w-6xl px-2 py-12">
         <div className="grid md:grid-cols-3 gap-8">
           <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.04] transition">
             <h3 className="text-xl font-semibold text-white mb-3">Project Experience</h3>
@@ -159,6 +164,9 @@ export default function Home() {
         </div>
       </section>
 
+            <WhoWeAreSimple />
+
+
       <section id="services" className="relative mx-auto max-w-6xl px-4 py-24">
         {/* Background Blob */}
         <div className="pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[40rem] w-[40rem] opacity-20 blur-[100px]"
@@ -195,63 +203,63 @@ export default function Home() {
       </section>
 
       <section id="companies" className="mx-auto max-w-6xl px-4 pb-24">
-  <motion.div {...fadeInUp}>
-    <SectionHeader>Where we&apos;ve been</SectionHeader>
+        <motion.div {...fadeInUp}>
+          <SectionHeader>Where we&apos;ve been</SectionHeader>
 
-    <div className="mt-6 flex justify-center">
-      <img
-        src="/team/companies.webp"
-        alt="Where we have been"
-        className="w-full max-w-5xl rounded-xl object-cover"
-      />
-    </div>
-  </motion.div>
-</section>
+          <div className="mt-6 flex justify-center">
+            <img
+              src="/team/companies.webp"
+              alt="Where we have been"
+              className="w-full max-w-5xl rounded-xl object-cover"
+            />
+          </div>
+        </motion.div>
+      </section>
 
-  
-      
+
+
 
       <section id="sponsors" className="mx-auto max-w-6xl px-4 pb-24">
-  <motion.div {...fadeInUp}>
-    <SectionHeader>Our Sponsors</SectionHeader>
+        <motion.div {...fadeInUp}>
+          <SectionHeader>Our Sponsors</SectionHeader>
 
-    <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-10 items-center justify-items-center">
-      
-      <div className="transition-transform duration-300 hover:scale-105 flex items-center justify-center h-20 md:h-24">
-        <img
-          src="/sponsors/lsa-barger.webp"
-          alt="LSA Barger Leadership Institute"
-          className="max-h-full w-auto object-contain"
-        />
-      </div>
+          <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-10 items-center justify-items-center">
 
-      <div className="transition-transform duration-300 hover:scale-105 flex items-center justify-center h-20 md:h-24">
-        <img
-          src="/sponsors/esg.webp"
-          alt="Engineering Student Government"
-          className="max-h-full w-auto object-contain"
-        />
-      </div>
+            <div className="transition-transform duration-300 hover:scale-105 flex items-center justify-center h-20 md:h-24">
+              <img
+                src="/sponsors/lsa-barger.webp"
+                alt="LSA Barger Leadership Institute"
+                className="max-h-full w-auto object-contain"
+              />
+            </div>
 
-      <div className="transition-transform duration-300 hover:scale-105 flex items-center justify-center h-20 md:h-24">
-        <img
-          src="/sponsors/SOFC.webp"
-          alt="Student Organization Funding Committee"
-          className="max-h-full w-auto object-contain"
-        />
-      </div>
+            <div className="transition-transform duration-300 hover:scale-105 flex items-center justify-center h-20 md:h-24">
+              <img
+                src="/sponsors/esg.webp"
+                alt="Engineering Student Government"
+                className="max-h-full w-auto object-contain"
+              />
+            </div>
 
-      <div className="transition-transform duration-300 hover:scale-105 flex items-center justify-center h-20 md:h-24">
-        <img
-          src="/sponsors/LSA-SG.webp"
-          alt="LSA Student Government"
-          className="max-h-full w-auto object-contain"
-        />
-      </div>
+            <div className="transition-transform duration-300 hover:scale-105 flex items-center justify-center h-20 md:h-24">
+              <img
+                src="/sponsors/SOFC.webp"
+                alt="Student Organization Funding Committee"
+                className="max-h-full w-auto object-contain"
+              />
+            </div>
 
-    </div>
-  </motion.div>
-</section>
+            <div className="transition-transform duration-300 hover:scale-105 flex items-center justify-center h-20 md:h-24">
+              <img
+                src="/sponsors/LSA-SG.webp"
+                alt="LSA Student Government"
+                className="max-h-full w-auto object-contain"
+              />
+            </div>
+
+          </div>
+        </motion.div>
+      </section>
 
       <Footer social={{ instagram: "https://instagram.com/umich_mdc", email: "mdc-eboard@umich.edu", linkedin: "https://www.linkedin.com/company/michigan-data-consulting" }} />
 
