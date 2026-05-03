@@ -88,6 +88,76 @@ export default function Home() {
       </section>
 
       <WhoWeAreSimple />
+      {/* Hero Section */}
+      <section className="relative z-10 mx-auto max-w-6xl px-4 py-12 md:py-20 text-center">
+        <h1 className="font-display text-4xl md:text-6xl font-semibold tracking-tight">
+          Launch Your Career in <br />
+          <span className="bg-gradient-to-r from-[#E6DAFF] to-[#9080DB] bg-clip-text text-transparent">Tech Consulting</span>
+        </h1>
+        <p className="mt-6 max-w-2xl mx-auto text-lg text-white/80 leading-relaxed">
+          Join Michigan&apos;s premier student-led data consulting club. Work on real impactful projects, develop your skills, and find a community
+          of driven analysts.
+        </p>
+      </section>
+
+      {/*images*/}
+      <section className="relative z-10 mx-auto max-w-6xl px-4 py-10">
+        <div className="flex justify-center gap-6 overflow-x-auto snap-x snap-mandatory">
+
+          <div className="min-w-[260px] md:min-w-[320px] snap-center rounded-2xl overflow-hidden border border-white/10">
+            <img src="/team/pic3.webp" className="h-full w-full object-cover" />
+          </div>
+
+          <div className="min-w-[260px] md:min-w-[320px] snap-center rounded-2xl overflow-hidden border border-white/10">
+            <img src="/team/pic1.webp" className="h-full w-full object-cover" />
+          </div>
+
+          <div className="min-w-[260px] md:min-w-[320px] snap-center rounded-2xl overflow-hidden border border-white/10">
+            <img src="/team/pic2.webp" className="h-full w-full object-cover" />
+          </div>
+
+        </div>
+      </section>
+
+      {/* Value Pillars */}
+      <section className="relative z-10 mx-auto max-w-6xl px-4 py-16">
+        <div className="grid md:grid-cols-3 gap-8">
+          <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.04] transition">
+            <h3 className="text-xl font-semibold text-white mb-3">Project Experience</h3>
+            <p className="italic text-[#E6DAFF]">
+              Hands-on experience w/ clients from startups + leading tech companies to local businesses + international nonprofits.
+            </p>
+
+            <p className="mt-3 text-white/80">
+              Our members get real world experiences to apply their skills into the intersection of business and tech. Analysts work through the
+              entire consulting process, from scoping and interfacing with the client, to presenting final tech-based deliverables built on data-driven insights.
+            </p>
+          </div>
+          <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.04] transition">
+            <h3 className="text-xl font-semibold text-white mb-3">Education & Skill Development</h3>
+            <p className="italic text-[#BFAEF0]">
+              Technical and professional programming to build member skills in data science and consulting.
+            </p>
+
+            <p className="mt-3 text-white/80">
+              We invest significantly into our member tech + prof development, including creating weekly workshops in ML, data engineering, strategy,
+              and curating a comprehensive MDC-specific resource hub offering tracks in data science, consulting, SWE, and more.
+
+            </p>
+          </div>
+          <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.04] transition">
+            <h3 className="text-xl font-semibold text-white mb-3">Community</h3>
+            <p className="italic text-[#9080DB]">
+              A tight-knit group of driven peers. We host socials, semester retreats, and build lifelong friendships.
+            </p>
+
+            <p className="mt-3 text-white/80">
+              From arb sunsets to ice skating socials, our team and community go beyond just project work. Community is why MDC was originally created—
+              every member is part of a supportive network where we not only work together professionally but also connect socially.
+            </p>
+          </div>
+        </div>
+      </section>
 
       <section id="services" className="relative mx-auto max-w-6xl px-4 py-24">
         {/* Background Blob */}
@@ -115,7 +185,7 @@ export default function Home() {
 
       <section id="work" className="mx-auto max-w-6xl px-4 pb-24">
         <motion.div {...fadeInUp}>
-          <SectionHeader>Selected work</SectionHeader>
+          <SectionHeader>Who we've worked with</SectionHeader>
           <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <CaseCard tag="Data" title="Ford School" blurb="KPI analysis and analytics dashboarding." link="/work/ford" logo="/clients/ford.webp" />
             <CaseCard tag="ML" title="Homestream" blurb="Developed RAG pipelines and chatbot for home buyers." link="/work/homestream" logo="/clients/homestream.webp" />
@@ -124,25 +194,64 @@ export default function Home() {
         </motion.div>
       </section>
 
+      <section id="companies" className="mx-auto max-w-6xl px-4 pb-24">
+  <motion.div {...fadeInUp}>
+    <SectionHeader>Where we've been</SectionHeader>
+
+    <div className="mt-6 flex justify-center">
+      <img
+        src="/team/companies.webp"
+        alt="Where we've been"
+        className="w-full max-w-5xl rounded-xl object-cover"
+      />
+    </div>
+  </motion.div>
+</section>
+
+  
+      
+
       <section id="sponsors" className="mx-auto max-w-6xl px-4 pb-24">
-        <motion.div {...fadeInUp}>
-          <SectionHeader>Our Sponsors</SectionHeader>
-          <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-16 md:gap-24">
-            <div className="transition-all duration-300 hover:scale-105 flex items-center justify-center h-40 md:h-56 w-full sm:w-auto max-w-[500px]">
-              <img src="/sponsors/lsa-barger.webp" alt="LSA Barger Leadership Institute" className="max-h-full max-w-full object-contain" />
-            </div>
-            <div className="transition-all duration-300 hover:scale-105 flex items-center justify-center h-40 md:h-56 w-full sm:w-auto max-w-[500px]">
-              <img src="/sponsors/esg.webp" alt="Engineering Student Government" className="max-h-full max-w-full object-contain" />
-            </div>
-            <div className="transition-all duration-300 hover:scale-105 flex items-center justify-center h-40 md:h-56 w-full sm:w-auto max-w-[500px]">
-              <img src="/sponsors/SOFC.webp" alt="Student Organization Funding Committee" className="max-h-full max-w-full object-contain" />
-            </div>
-            <div className="transition-all duration-300 hover:scale-105 flex items-center justify-center h-40 md:h-56 w-full sm:w-auto max-w-[500px]">
-              <img src="/sponsors/LSA-SG.webp" alt="LSA Student Government" className="max-h-full max-w-full object-contain" />
-            </div>
-          </div>
-        </motion.div>
-      </section>
+  <motion.div {...fadeInUp}>
+    <SectionHeader>Our Sponsors</SectionHeader>
+
+    <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-10 items-center justify-items-center">
+      
+      <div className="transition-transform duration-300 hover:scale-105 flex items-center justify-center h-20 md:h-24">
+        <img
+          src="/sponsors/lsa-barger.webp"
+          alt="LSA Barger Leadership Institute"
+          className="max-h-full w-auto object-contain"
+        />
+      </div>
+
+      <div className="transition-transform duration-300 hover:scale-105 flex items-center justify-center h-20 md:h-24">
+        <img
+          src="/sponsors/esg.webp"
+          alt="Engineering Student Government"
+          className="max-h-full w-auto object-contain"
+        />
+      </div>
+
+      <div className="transition-transform duration-300 hover:scale-105 flex items-center justify-center h-20 md:h-24">
+        <img
+          src="/sponsors/SOFC.webp"
+          alt="Student Organization Funding Committee"
+          className="max-h-full w-auto object-contain"
+        />
+      </div>
+
+      <div className="transition-transform duration-300 hover:scale-105 flex items-center justify-center h-20 md:h-24">
+        <img
+          src="/sponsors/LSA-SG.webp"
+          alt="LSA Student Government"
+          className="max-h-full w-auto object-contain"
+        />
+      </div>
+
+    </div>
+  </motion.div>
+</section>
 
       <Footer social={{ instagram: "https://instagram.com/umich_mdc", email: "mdc-eboard@umich.edu", linkedin: "https://www.linkedin.com/company/michigan-data-consulting" }} />
 

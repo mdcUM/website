@@ -33,13 +33,26 @@ export default function WhoWeAreSimple({
           <div className="mb-2 text-xs font-medium uppercase tracking-[0.18em] text-white/60">
             About us
           </div>
+
           <h2 className="text-3xl font-semibold sm:text-4xl">{title}</h2>
+
           <p className="mt-3 text-white/70">{text}</p>
-          <ul className="mt-6 grid gap-2 text-sm text-white/75 md:grid-cols-2">
-            <li className="flex items-center gap-2"><span className="inline-block h-1.5 w-1.5 rounded-full bg-gradient-to-r from-[#E6DAFF] to-[#9080DB]" /> Outcome-driven</li>
-            <li className="flex items-center gap-2"><span className="inline-block h-1.5 w-1.5 rounded-full bg-gradient-to-r from-[#E6DAFF] to-[#9080DB]" /> Cross-functional</li>
-            <li className="flex items-center gap-2"><span className="inline-block h-1.5 w-1.5 rounded-full bg-gradient-to-r from-[#E6DAFF] to-[#9080DB]" /> Mentorship</li>
-            <li className="flex items-center gap-2"><span className="inline-block h-1.5 w-1.5 rounded-full bg-gradient-to-r from-[#E6DAFF] to-[#9080DB]" /> Client impact</li>
+
+          <ul className="mt-6 space-y-2 text-sm text-white/75">
+            <li className="flex items-center gap-2">
+              <span className="h-1.5 w-1.5 rounded-full bg-gradient-to-r from-[#E6DAFF] to-[#9080DB]" />
+              Project Experience
+            </li>
+
+            <li className="flex items-center gap-2">
+              <span className="h-1.5 w-1.5 rounded-full bg-gradient-to-r from-[#E6DAFF] to-[#9080DB]" />
+              Technical + Professional Education
+            </li>
+
+            <li className="flex items-center gap-2">
+              <span className="h-1.5 w-1.5 rounded-full bg-gradient-to-r from-[#E6DAFF] to-[#9080DB]" />
+              Community
+            </li>
           </ul>
         </div>
 
@@ -50,9 +63,8 @@ export default function WhoWeAreSimple({
                 key={idx}
                 src={img.src}
                 alt={img.alt || ''}
-                className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-500 ${
-                  idx === i ? 'opacity-100' : 'opacity-0'
-                }`}
+                className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-500 ${idx === i ? 'opacity-100' : 'opacity-0'
+                  }`}
                 draggable={false}
                 width={600} height={450}
               />
@@ -86,9 +98,8 @@ export default function WhoWeAreSimple({
                 key={idx}
                 onClick={() => setI(idx)}
                 aria-label={`Go to slide ${idx + 1}`}
-                className={`h-1.5 w-1.5 rounded-full transition-all ${
-                  i === idx ? 'w-4 bg-white' : 'bg-white/40 hover:bg-white/60'
-                }`}
+                className={`h-1.5 w-1.5 rounded-full transition-all ${i === idx ? 'w-4 bg-white' : 'bg-white/40 hover:bg-white/60'
+                  }`}
               />
             ))}
           </div>

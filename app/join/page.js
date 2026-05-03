@@ -17,49 +17,12 @@ export default function JoinPage() {
 
       {/* Timeline Section */}
       <section className="relative z-10 mx-auto max-w-6xl px-4 py-20">
-        <h2 className="text-3xl font-semibold text-center mb-12">F26 MDC Recruitment</h2>
+        <h2 className="text-5xl font-semibold text-center mb-12">F26 Recruitment</h2>
         <p className="text-center text-white/70 max-w-2xl mx-auto mb-12">
           Our Fall 2026 recruitment cycle is currently being finalized. Event details, workshops, and application deadlines will be posted soon.
-          Fill out our interest form and check back for updates!
+          <br /><br />Fill out our interest form and check back for updates!
         </p>
         <Timeline season="Fall 2026" interestUrl={INTEREST_URL} applyUrl={APPLY_URL} events={EVENTS} big />
-      </section>
-
-      {/* Hero Section */}
-      <section className="relative z-10 mx-auto max-w-6xl px-4 py-20 md:py-32 text-center">
-        <h1 className="font-display text-4xl md:text-6xl font-semibold tracking-tight">
-          Launch Your Career in <br />
-          <span className="bg-gradient-to-r from-[#E6DAFF] to-[#9080DB] bg-clip-text text-transparent">Data Consulting</span>
-        </h1>
-        <p className="mt-6 max-w-2xl mx-auto text-lg text-white/80 leading-relaxed">
-          Join Michigan&apos;s premier student-led data consulting club. Work with real clients, make real impact, and find your community.
-        </p>
-        <div className="mt-8 flex justify-center gap-4">
-          <a href={APPLY_URL} target="_blank" rel="noopener noreferrer" className="rounded-full bg-gradient-to-r from-[#9080DB] to-[#E6DAFF] px-8 py-3 font-medium text-[#0b0b11] shadow-[0_10px_30px_rgba(144,128,219,0.18)] hover:opacity-95 text-lg">
-            Apply Now
-          </a>
-          <a href={INTEREST_URL} target="_blank" rel="noopener noreferrer" className="rounded-full border border-white/15 px-8 py-3 font-medium text-white/90 hover:bg-white/5 text-lg">
-            Interest Form
-          </a>
-        </div>
-      </section>
-
-      {/* Value Pillars */}
-      <section className="relative z-10 mx-auto max-w-6xl px-4 py-16">
-        <div className="grid md:grid-cols-3 gap-8">
-          <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.04] transition">
-            <h3 className="text-xl font-semibold text-[#E6DAFF] mb-3">Projects</h3>
-            <p className="text-white/70">Hands-on experience with Fortune 500s and startups. Specialized workshops in ML, Data Engineering, and Strategy.</p>
-          </div>
-          <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.04] transition">
-            <h3 className="text-xl font-semibold text-[#9080DB] mb-3">Education & Skill Development</h3>
-            <p className="text-white/70">Direct access to upperclassmen at top firms like Roblox, Capital One, Amazon, and more.</p>
-          </div>
-          <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.04] transition">
-            <h3 className="text-xl font-semibold text-white mb-3">Community</h3>
-            <p className="text-white/70">A tight-knit group of driven peers. We host socials, semester retreats, and build lifelong friendships.</p>
-          </div>
-        </div>
       </section>
 
 
