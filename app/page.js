@@ -91,8 +91,8 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative z-10 mx-auto max-w-6xl px-4 py-12 md:py-20 text-center">
         <h1 className="font-display text-4xl md:text-6xl font-semibold tracking-tight">
-          Launch Your Career in <br />
-          <span className="bg-gradient-to-r from-[#E6DAFF] to-[#9080DB] bg-clip-text text-transparent">Tech Consulting</span>
+          Welcome to... <br />
+          <span className="bg-gradient-to-r from-[#E6DAFF] to-[#9080DB] bg-clip-text text-transparent">Tech Consulting at MDC</span>
         </h1>
         <p className="mt-6 max-w-2xl mx-auto text-lg text-white/80 leading-relaxed">
           Join Michigan&apos;s premier student-led data consulting club. Work on real impactful projects, develop your skills, and find a community
@@ -165,7 +165,7 @@ export default function Home() {
           style={{ backgroundImage: "radial-gradient(closest-side,#9080DB,transparent)" }} />
 
         <motion.div {...fadeInUp}>
-          <SectionHeader>What we do</SectionHeader>
+          <SectionHeader>What we do</SectionHeader> {/*add more here*/}
           <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <ServiceCard
               title="Machine Learning"

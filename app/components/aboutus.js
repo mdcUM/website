@@ -5,7 +5,8 @@ import Image from 'next/image';
 
 export default function WhoWeAreSimple({
   title = 'Who we are',
-  text = 'We’re a student-led tech consulting club shipping real, data-driven projects for partners in industry, academia, and more.',
+  text1 = 'We’re a student-led tech consulting club building data-driven solutions for partners in industry, academia, and more. ',
+  text2 = 'Our mission is to provide innovative data-driven consulting services that deliver high-impact solutions to our clients. We aim to equip students with the analytical skills needed to solve complex business problems and drive meaningful impact across industries.' ,
   images = [
     { src: '/team/smiling.webp', alt: 'Group Photo' },
     { src: '/team/laughing.webp', alt: 'Group Talking Photo 1' },
@@ -36,7 +37,9 @@ export default function WhoWeAreSimple({
 
           <h2 className="text-3xl font-semibold sm:text-4xl">{title}</h2>
 
-          <p className="mt-3 text-white/70">{text}</p>
+          <p className="mt-3 text-white/70">{text1}
+            <br /><br />
+            {text2}</p>
 
           <ul className="mt-6 space-y-2 text-sm text-white/75">
             <li className="flex items-center gap-2">
