@@ -177,16 +177,27 @@ export default function Home() {
           <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <ServiceCard
               title="Machine Learning"
-              desc="Predictive modeling, NLP pipelines, and recommendation systems tailored to your unique data landscape."
+              desc="Predictive modeling, NLP pipelines, and recommendation systems tailored to our client's data landscapes."
             />
             <ServiceCard
               title="Data Engineering"
               desc="Robust ETL pipelines, data warehousing, and cloud infrastructure optimization on AWS/Azure/GCP."
             />
+             <ServiceCard
+              title="Data Analytics"
+              desc="Data analysis and manipulation to find trends and patterns that lead to actionable insights."
+            />
+          </div>
+          <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <ServiceCard
+              title="Web Dev"
+              desc="Full-stack development with a focus on performance and usability for our clients' target audiences."
+            />
             <ServiceCard
               title="Visualization & BI"
               desc="Interactive dashboards (Tableau, PowerBI, Looker) and custom web applications to drive decision making."
             />
+            
           </div>
         </motion.div>
       </section>
