@@ -185,7 +185,7 @@ export default function Home() {
 
       <section id="work" className="mx-auto max-w-6xl px-4 pb-24">
         <motion.div {...fadeInUp}>
-          <SectionHeader>Who we've worked with</SectionHeader>
+          <SectionHeader>Who we have worked with</SectionHeader>
           <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <CaseCard tag="Data" title="Ford School" blurb="KPI analysis and analytics dashboarding." link="/work/ford" logo="/clients/ford.webp" />
             <CaseCard tag="ML" title="Homestream" blurb="Developed RAG pipelines and chatbot for home buyers." link="/work/homestream" logo="/clients/homestream.webp" />
@@ -196,12 +196,12 @@ export default function Home() {
 
       <section id="companies" className="mx-auto max-w-6xl px-4 pb-24">
   <motion.div {...fadeInUp}>
-    <SectionHeader>Where we've been</SectionHeader>
+    <SectionHeader>Where we have been</SectionHeader>
 
     <div className="mt-6 flex justify-center">
       <img
         src="/team/companies.webp"
-        alt="Where we've been"
+        alt="Where we have been"
         className="w-full max-w-5xl rounded-xl object-cover"
       />
     </div>
