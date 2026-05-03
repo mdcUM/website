@@ -1,16 +1,57 @@
-export default function ServiceCard({ title, desc }) {
+export default function ServiceCard({ index, title, desc }) {
   return (
-    <article className="group rounded-2xl border border-white/10 bg-gradient-to-b from-white/5 to-white/0 p-4 shadow-[0_10px_30px_rgba(144,128,219,0.18)] transition-transform hover:-translate-y-1">
-      <div className="flex items-center gap-3">
-        <div className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-to-tr from-[#E6DAFF]/20 to-[#9080DB]/20 text-white/80">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="opacity-90">
-            <path d="M12 3l9 6-9 6-9-6 9-6z" />
-            <path d="M3 12l9 6 9-6" />
-          </svg>
-        </div>
-        <h3 className="text-base font-semibold">{title}</h3>
+    <article
+      className="group relative flex min-h-[260px] flex-col overflow-hidden rounded-xl border border-white/10 bg-[#0a0814] transition-all duration-300 hover:-translate-y-1 hover:border-white/30"
+    >
+      {/* animated accent line */}
+      <div className="h-px w-full bg-gradient-to-r from-transparent via-[#c4b0ff] to-transparent opacity-60 transition group-hover:opacity-100" />
+
+      {/* scan line effect */}
+      <div className="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-10 transition">
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white to-transparent translate-y-[-100%] group-hover:translate-y-[100%] transition duration-700" />
       </div>
-      <p className="mt-2 text-sm text-white/70">{desc}</p>
+
+      {/* top glow */}
+      <div
+        className="pointer-events-none absolute -top-6 left-1/2 h-[100px] w-[160px] -translate-x-1/2 opacity-60 transition group-hover:opacity-80"
+        style={{
+          background:
+            "radial-gradient(ellipse at center, rgba(180,160,255,0.35), transparent 70%)",
+        }}
+      />
+
+      {/* bottom glow */}
+      <div
+        className="pointer-events-none absolute -bottom-6 left-1/2 h-[90px] w-[140px] -translate-x-1/2 opacity-50 transition group-hover:opacity-70"
+        style={{
+          background:
+            "radial-gradient(ellipse at center, rgba(200,190,255,0.3), transparent 70%)",
+        }}
+      />
+
+      {/* subtle noise overlay */}
+      <div className="pointer-events-none absolute inset-0 opacity-[0.03] bg-[url('https://www.transparenttextures.com/patterns/noise.png')]" />
+
+      {/* content */}
+      <div className="relative flex flex-1 flex-col gap-2 p-6">
+
+        {/* badge index (more premium than plain number) */}
+        <div className="flex items-center gap-2">
+          <span className="flex h-6 w-6 items-center justify-center rounded-full border border-white/10 text-[10px] text-white/40 group-hover:border-white/30 group-hover:text-white/70 transition">
+            {index}
+          </span>
+        </div>
+
+        {/* title */}
+        <h2 className="text-base font-semibold text-white transition group-hover:translate-x-0.5">
+          {title}
+        </h2>
+
+        {/* desc */}
+        <p className="text-s leading-relaxed text-white/60 transition group-hover:text-white/80">
+          {desc}
+        </p>
+      </div>
     </article>
   );
 }

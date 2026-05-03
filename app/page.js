@@ -94,7 +94,7 @@ export default function Home() {
           <span className="bg-gradient-to-r from-[#E6DAFF] to-[#9080DB] bg-clip-text text-transparent">Tech Consulting at MDC</span>
         </h1>
         <p className="mt-6 max-w-2xl mx-auto text-lg text-white/80 leading-relaxed">
-          Work on impactful real-world projects, build your skills in data science, and find a community of driven analysts from a diverse range of fields.
+          Work on impactful real-world projects. Build your skills in data science. <br />Find a community of driven analysts from a diverse range of fields.
 
         </p>
       </section>
@@ -164,7 +164,7 @@ export default function Home() {
         </div>
       </section>
 
-            <WhoWeAreSimple />
+      <WhoWeAreSimple />
 
 
       <section id="services" className="relative mx-auto max-w-6xl px-4 py-24">
@@ -173,31 +173,14 @@ export default function Home() {
           style={{ backgroundImage: "radial-gradient(closest-side,#9080DB,transparent)" }} />
 
         <motion.div {...fadeInUp}>
-          <SectionHeader>What we do</SectionHeader> {/*add more here*/}
-          <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <ServiceCard
-              title="Machine Learning"
-              desc="Predictive modeling, NLP pipelines, and recommendation systems tailored to our client's data landscapes."
-            />
-            <ServiceCard
-              title="Data Engineering"
-              desc="Robust ETL pipelines, data warehousing, and cloud infrastructure optimization on AWS/Azure/GCP."
-            />
-             <ServiceCard
-              title="Data Analytics"
-              desc="Data analysis and manipulation to find trends and patterns that lead to actionable insights."
-            />
-          </div>
-          <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <ServiceCard
-              title="Web Dev"
-              desc="Full-stack development with a focus on performance and usability for our clients' target audiences."
-            />
-            <ServiceCard
-              title="Visualization & BI"
-              desc="Interactive dashboards (Tableau, PowerBI, Looker) and custom web applications to drive decision making."
-            />
-            
+          <SectionHeader>What we do</SectionHeader>
+
+          <div className="mt-12 grid grid-cols-1 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+            <ServiceCard index={1} title="Advanced Analytics" desc="Data analytics and manipulation to find trends and patterns that lead to actionable insights." />
+            <ServiceCard index={2} title="Machine Learning" desc="Predictive modeling, NLP pipelines, and recommendation systems tailored to our client's data landscapes." />
+            <ServiceCard index={3} title="Data Engineering" desc="Robust ETL pipelines, data warehousing, and cloud infrastructure optimization on AWS/Azure/GCP." />
+            <ServiceCard index={4} title="Web Dev" desc="Full-stack development with a focus on performance and usability for our clients' target audiences." />
+            <ServiceCard index={5} title="Visualization & BI" desc="Interactive dashboards (Tableau, PowerBI, Looker) and custom web applications to drive decision making." />
           </div>
         </motion.div>
       </section>

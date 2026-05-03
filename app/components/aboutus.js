@@ -44,17 +44,17 @@ export default function WhoWeAreSimple({
           <ul className="mt-6 space-y-2 text-sm text-white/75">
             <li className="flex items-center gap-2">
               <span className="h-1.5 w-1.5 rounded-full bg-gradient-to-r from-[#E6DAFF] to-[#9080DB]" />
-              Project Experience
+              Data science-based tech consulting projects
             </li>
 
             <li className="flex items-center gap-2">
               <span className="h-1.5 w-1.5 rounded-full bg-gradient-to-r from-[#E6DAFF] to-[#9080DB]" />
-              Technical + Professional Education
+              Technical + professional development in AI, strategy, analytics + more
             </li>
 
             <li className="flex items-center gap-2">
               <span className="h-1.5 w-1.5 rounded-full bg-gradient-to-r from-[#E6DAFF] to-[#9080DB]" />
-              Community
+              A community centered around amazing socials, food, and people
             </li>
           </ul>
         </div>
