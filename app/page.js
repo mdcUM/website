@@ -132,18 +132,18 @@ export default function Home() {
           <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.04] transition">
             <h3 className="text-xl font-semibold text-white mb-3">Project Experience</h3>
             <p className="italic text-[#E6DAFF]">
-              Hands-on experience w/ clients from startups + leading tech companies to local businesses + international nonprofits.
+              Hands-on experience w/ clients from local businesses + startups to international nonprofits + leading tech companies.
             </p>
 
             <p className="mt-3 text-white/80">
               Our members get real world experiences to apply their skills into the intersection of business and tech. Analysts work through the
-              entire consulting process, from scoping and interfacing with the client to presenting final tech-based deliverables built on data-driven insights.
+              entire consulting process, from scoping and interfacing with the client to presenting final tech-based deliverables built on data-driven solutions.
             </p>
           </div>
           <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.04] transition">
             <h3 className="text-xl font-semibold text-white mb-3">Education & Skill Development</h3>
             <p className="italic text-[#BFAEF0]">
-              Technical and professional programming to build member skills in data science and consulting.
+              Technical and professional programming to build member skills in data science,  consulting, and tech & business as a whole.
             </p>
 
             <p className="mt-3 text-white/80">
