@@ -67,7 +67,7 @@ export default function Home() {
                 Join Us!
               </Link>
               <Link href="/work" className="rounded-full border border-white/10 bg-white/5 px-8 py-3 font-medium text-white backdrop-blur-sm transition-all hover:bg-white/10 hover:border-white/20">
-                See our work
+                See Our Work
               </Link>
             </div>
           </motion.div>
@@ -126,7 +126,10 @@ export default function Home() {
 
       {/* Value Pillars */}
       <section className="relative z-10 mx-auto max-w-6xl px-2 py-12">
-        <div className="grid md:grid-cols-3 gap-8">
+        <motion.div {...fadeInUp}>
+          <SectionHeader>Our Pillars</SectionHeader>
+        </motion.div>
+        <div className="mt-12 grid md:grid-cols-3 gap-8">
           <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.04] transition">
             <h3 className="text-xl font-semibold text-white mb-3">Project Experience</h3>
             <p className="italic text-[#E6DAFF]">

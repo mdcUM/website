@@ -43,12 +43,12 @@ export default function StickyHeader() {
         </Link>
 
         <nav className="hidden items-center gap-2 sm:flex">
-          <Link className="rounded-lg px-3 py-2 text-sm text-white/80 hover:bg-white/5" href="/about">About</Link>
-          <Link className="rounded-lg px-3 py-2 text-sm text-white/80 hover:bg-white/5" href="/work">Work</Link>
+          <Link className="rounded-lg px-3 py-2 text-sm text-white/80 hover:bg-white/5" href="/about">Our Team</Link>
+          <Link className="rounded-lg px-3 py-2 text-sm text-white/80 hover:bg-white/5" href="/work">Our Work</Link>
           {/* <Link className="rounded-lg px-3 py-2 text-sm text-white/80 hover:bg-white/5" href="/events">Events</Link> */}
           <div className="ml-2 flex items-center gap-2">
-            <Link className="rounded-full border border-white/10 px-4 py-2 text-sm font-medium text-white/90 hover:bg-white/5" href="/services">For Partners</Link>
-            <Link className="rounded-full bg-gradient-to-r from-[#9080DB] to-[#E6DAFF] px-4 py-2 text-sm font-medium text-[#0b0b11] shadow-[0_10px_30px_rgba(144,128,219,0.18)] hover:opacity-95" href="/join">Join Us</Link>
+            <Link className="rounded-full border border-white/10 px-4 py-2 text-sm font-medium text-white/90 hover:bg-white/5" href="/services">Client Services</Link>
+            <Link className="rounded-full bg-gradient-to-r from-[#9080DB] to-[#E6DAFF] px-4 py-2 text-sm font-medium text-[#0b0b11] shadow-[0_10px_30px_rgba(144,128,219,0.18)] hover:opacity-95" href="/join">Recruitment</Link>
           </div>
         </nav>
 
@@ -108,17 +108,17 @@ export default function StickyHeader() {
 
           <nav className="mt-2 flex flex-col gap-1">
             <Link onClick={() => setOpen(false)} className="rounded-lg px-3 py-2 text-sm text-white/90 hover:bg-white/10" href="/">Home</Link>
-            <Link onClick={() => setOpen(false)} className="rounded-lg px-3 py-2 text-sm text-white/90 hover:bg-white/10" href="/about">About</Link>
-            <Link onClick={() => setOpen(false)} className="rounded-lg px-3 py-2 text-sm text-white/90 hover:bg-white/10" href="/work">Work</Link>
+            <Link onClick={() => setOpen(false)} className="rounded-lg px-3 py-2 text-sm text-white/90 hover:bg-white/10" href="/about">Our Team</Link>
+            <Link onClick={() => setOpen(false)} className="rounded-lg px-3 py-2 text-sm text-white/90 hover:bg-white/10" href="/work">Our Work</Link>
             {/* <Link onClick={() => setOpen(false)} className="rounded-lg px-3 py-2 text-sm text-white/90 hover:bg-white/10" href="/events">Events</Link> */}
             <hr className="my-2 border-white/10" />
-            <Link onClick={() => setOpen(false)} className="rounded-lg px-3 py-2 text-sm text-white/90 hover:bg-white/10" href="/services">For Partners</Link>
+            <Link onClick={() => setOpen(false)} className="rounded-lg px-3 py-2 text-sm text-white/90 hover:bg-white/10" href="/services">Client Services</Link>
             <Link
               onClick={() => setOpen(false)}
               className="mt-2 inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#9080DB] to-[#E6DAFF] px-4 py-2 text-sm font-medium text-[#0b0b11] shadow-[0_10px_30px_rgba(144,128,219,0.18)] hover:opacity-95"
               href="/join"
             >
-              Join Us!
+              Recruitment
             </Link>
           </nav>
 

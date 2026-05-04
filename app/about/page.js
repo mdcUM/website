@@ -25,7 +25,7 @@ export default function TeamPage() {
       <div id="top" className="relative z-10 mx-auto max-w-6xl px-4 py-14 md:py-20">
         <header className="mb-12 md:mb-16">
           <h1 className="mt-4 font-display text-4xl md:text-5xl font-semibold tracking-tight">
-            Us
+            Our Team
           </h1>
           <p className="mt-3 max-w-2xl text-white/80">
             Here are our current members, feel free to reach out to them!

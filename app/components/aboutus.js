@@ -32,7 +32,7 @@ export default function WhoWeAreSimple({
       <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-10 px-4 py-16 md:grid-cols-2">
         <div>
           <div className="mb-2 text-xs font-medium uppercase tracking-[0.18em] text-white/60">
-            About us
+            Our Team
           </div>
 
           <h2 className="text-3xl font-semibold sm:text-4xl">{title}</h2>
