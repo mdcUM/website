@@ -137,7 +137,7 @@ export const CLIENTS = [
     logo: '/clients/ford.webp',
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
-    semester: 'Fall 2025',
+    semester: 'Winter 2025',
     tags: ['Data Visualization', 'Python', 'R'],
     summary: 'KPI analysis and analytics dashboarding.',
     work: [
