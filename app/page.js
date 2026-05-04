@@ -191,9 +191,9 @@ export default function Home() {
         <motion.div {...fadeInUp}>
           <SectionHeader>Who we&apos;ve worked with</SectionHeader>
           <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <CaseCard tag="Data" title="Ford School" blurb="KPI analysis and analytics dashboarding." link="/work/ford" logo="/clients/ford.webp" />
-            <CaseCard tag="ML" title="Homestream" blurb="Developed RAG pipelines and chatbot for home buyers." link="/work/homestream" logo="/clients/homestream.webp" />
-            <CaseCard tag="Data" title="Nomad Science" blurb="Optimized archaeology data systems and documentation." link="/work/nomad" logo="/clients/nomad_science.webp" />
+            <CaseCard tag="ML" title="Riot Games" blurb="Engineered full framework for video game NPC behaviors." link="/work/stanhope" logo="/clients/riot_adjacent.webp" />
+            <CaseCard tag="Data" title="Ballotpedia" blurb="Analyzed and visualized 6 years of data from the Ballotpedia Candidate Connections survey." link="/work/ballotpediaF25" logo="/clients/ballotpedia.webp" />
+            <CaseCard tag="Data" title="MCFN" blurb="Designed and implemented an automated email alerts system to scrape campaign finance data." link="/work/mcfn" logo="/clients/mcfn.webp" />
           </div>
         </motion.div>
       </section>
