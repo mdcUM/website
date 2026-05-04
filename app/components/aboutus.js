@@ -55,7 +55,7 @@ export default function WhoWeAreSimple({
 
             <li className="flex items-center gap-2">
               <span className="h-1.5 w-1.5 rounded-full bg-gradient-to-r from-[#E6DAFF] to-[#9080DB]" />
-              A community centered around amazing socials, food, and people
+              A community centered around amazing people, food, and socials
             </li>
           </ul>
         </div>

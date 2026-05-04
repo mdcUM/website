@@ -94,7 +94,7 @@ export default function Home() {
           <span className="bg-gradient-to-r from-[#E6DAFF] to-[#9080DB] bg-clip-text text-transparent">Tech Consulting at MDC</span>
         </h1>
         <p className="mt-6 max-w-2xl mx-auto text-lg text-white/80 leading-relaxed">
-          Work on impactful real-world projects. Build your skills in data science. <br />Find a community of driven analysts from a diverse range of fields.
+          Work on impactful real-world projects. Build your skills in data science and tech. <br />Find a community of driven analysts from a diverse range of fields.
 
         </p>
       </section>
