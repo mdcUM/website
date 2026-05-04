@@ -15,6 +15,7 @@ export const CLIENTS = [
     logo: '/clients/riot_adjacent.webp',
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
+    semester: 'Fall 2025',
     tags: ['ML Engineering', 'Local LLMS', 'Python'],
     summary: 'Engineered full framework for video game NPC behaviors.',
     work: [
@@ -39,6 +40,7 @@ export const CLIENTS = [
     logo: '/clients/mcfn.webp',
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
+    semester: 'Fall 2025',
     tags: ['System Design', 'Research', 'Strategy'],
     summary: 'Designed and implemented a fully automated email alerts system to scrape campaign finance data.',
     work: [
@@ -62,6 +64,7 @@ export const CLIENTS = [
     logo: '/clients/ballotpedia.webp',
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
+    semester: 'Fall 2025',
     tags: ['Python', 'Strategy', 'Data Visualization'],
     summary: 'Analyzed and visualized 6 years of data from the Ballotpedia Candidate Connections survey.',
     work: [
@@ -85,6 +88,7 @@ export const CLIENTS = [
     logo: '/clients/michigan_medicine.webp',
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
+    semester: 'Fall 2025',
     tags: ['System Design', 'Research', 'Strategy'],
     summary: 'Conducted a landscape analysis of data management practices to support improved information sharing and partnership coordination across a multidisciplinary health program.',
     work: [
@@ -109,6 +113,7 @@ export const CLIENTS = [
     logo: '/clients/irwg.webp',
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
+    semester: 'Fall 2025',
     tags: ['Python', 'Graphs', 'Data Cleaning'],
     summary: 'Visualized 30 years of seed grant impact through data analysis and graphs',
     work: [
@@ -132,6 +137,7 @@ export const CLIENTS = [
     logo: '/clients/ford.webp',
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
+    semester: 'Fall 2025',
     tags: ['Data Visualization', 'Python', 'R'],
     summary: 'KPI analysis and analytics dashboarding.',
     work: [
@@ -157,6 +163,7 @@ export const CLIENTS = [
     logo: '/clients/ballotpedia.webp',
     brand: 'rgba(0, 102, 204, 1)',
     year: 2025,
+    semester: 'Winter 2025',
     website: 'https://ballotpedia.org/',
     caseUrl: '/work/ballotpedia',
     tags: ['Data Cleaning', 'Data Analysis', 'SQL', 'Tableau'],
@@ -184,6 +191,7 @@ export const CLIENTS = [
     logo: '/clients/riot_games.webp',
     brand: 'rgba(255, 70, 85, 1)',
     year: 2025,
+    semester: 'Winter 2025',
     website: 'https://www.leagueoflegends.com/',
     caseUrl: '/work/riot',
     tags: ['Graph Algorithms', 'API', 'Data Analysis', 'Python'],
@@ -211,6 +219,7 @@ export const CLIENTS = [
     logo: '/clients/homestream.webp',
     brand: 'rgba(20, 20, 255, 1)',
     year: 2025,
+    semester: 'Winter 2025',
     // website: 'https://example.com/',
     caseUrl: '/work/homestream',
     tags: ['ML Engineering', 'React', 'UX Design'],
@@ -238,6 +247,7 @@ export const CLIENTS = [
     logo: '/clients/nomad_science.webp',
     brand: 'rgba(231, 76, 60, 1)',
     year: 2025,
+    semester: 'Winter 2025',
     website: 'https://www.nomadsciencemongolia.org/',
     caseUrl: '/work/nomad',
     tags: ['Pandas', 'SQL', 'Data Cleaning', 'ETL', 'Cloud Computing'],

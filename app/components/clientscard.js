@@ -114,7 +114,7 @@ function ClientModal({ open, onClose, client }) {
                 <div className="min-w-0 flex-1">
                   <div className="flex items-start justify-between gap-3">
                     <div className="min-w-0">
-                      <div className="text-sm text-white/70">{client.year}</div>
+                      <div className="text-sm text-white/70">{client.semester || client.year}</div>
                       <h3 className="mt-0.5 text-2xl md:text-3xl font-semibold leading-tight">
                         {client.name}
                       </h3>
@@ -232,32 +232,39 @@ export default function ClientsView() {
           </div>
         </header>
 
-        <div className="grid gap-6 grid-cols-[repeat(auto-fit,minmax(220px,1fr))]">
-          {CLIENTS.map((c, i) => (
-            <motion.button
-              key={c.name}
-              onClick={() => setActive(c)}
-              whileHover={{ y: -2, scale: 1.01 }}
-              transition={{ duration: 0.22 }}
-              className="group relative rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-left"
-            >
-              <LogoTile name={c.name} logo={c.logo} brand={c.brand} />
-              <div className="mt-3 flex items-center justify-between gap-3">
-                <div className="min-w-0">
-                  <div className="flex items-center gap-2">
-                    <h3 className="font-semibold truncate">{c.name}</h3>
-                    <span className="text-xs text-white/50">• {c.year}</span>
-                  </div>
-                  <div className="mt-1 flex flex-wrap gap-1.5">
-                    {c.tags.slice(0, 3).map(t => <TagPillStatic key={t} text={t} />)}
-                  </div>
-                </div>
-                <span className="shrink-0 rounded-full border border-white/15 px-3 py-1 text-xs text-white/85 group-hover:bg-white/10">Details</span>
-              </div>
+        <div className="flex flex-col gap-12">
+          {Array.from(new Set(CLIENTS.map(c => c.semester || 'Past'))).map(semester => (
+            <div key={semester}>
+              <h2 className="mb-6 font-display text-2xl font-semibold tracking-tight">{semester}</h2>
+              <div className="grid gap-6 grid-cols-[repeat(auto-fit,minmax(220px,1fr))]">
+                {CLIENTS.filter(c => (c.semester || 'Past') === semester).map((c, i) => (
+                  <motion.button
+                    key={c.name}
+                    onClick={() => setActive(c)}
+                    whileHover={{ y: -2, scale: 1.01 }}
+                    transition={{ duration: 0.22 }}
+                    className="group relative flex h-full flex-col rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-left"
+                  >
+                    <LogoTile name={c.name} logo={c.logo} brand={c.brand} />
+                    <div className="mt-3 flex w-full flex-1 flex-col">
+                      <div className="flex items-center justify-between gap-2">
+                        <h3 className="truncate font-semibold">{c.name}</h3>
+                        <span className="shrink-0 whitespace-nowrap text-xs text-white/50">{c.semester || c.year}</span>
+                      </div>
+                      <div className="mt-1.5 flex w-full flex-1 items-end justify-between gap-3">
+                        <div className="flex flex-wrap gap-1.5">
+                          {c.tags.slice(0, 3).map(t => <TagPillStatic key={t} text={t} />)}
+                        </div>
+                        <span className="shrink-0 rounded-full border border-white/15 px-3 py-1 text-xs text-white/85 transition group-hover:bg-white/10">Details</span>
+                      </div>
+                    </div>
 
-              <div className="pointer-events-none absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition"
-                style={{ boxShadow: 'inset 0 0 0 1px rgba(255,255,255,0.08)', background: 'linear-gradient(180deg, rgba(230,218,255,0.06), transparent 40%)' }} />
-            </motion.button>
+                    <div className="pointer-events-none absolute inset-0 rounded-2xl opacity-0 transition group-hover:opacity-100"
+                      style={{ boxShadow: 'inset 0 0 0 1px rgba(255,255,255,0.08)', background: 'linear-gradient(180deg, rgba(230,218,255,0.06), transparent 40%)' }} />
+                  </motion.button>
+                ))}
+              </div>
+            </div>
           ))}
         </div>
       </section>
