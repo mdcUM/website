@@ -125,9 +125,8 @@ export default function Home() {
       </section>
 
       {/* Value Pillars */}
-      <section className="relative z-10 mx-auto max-w-6xl px-2 py-12">
+      <section className="relative z-10 mx-auto max-w-6xl px-2 pt-2 py-12">
         <motion.div {...fadeInUp}>
-          <SectionHeader>Our Pillars</SectionHeader>
         </motion.div>
         <div className="mt-12 grid md:grid-cols-3 gap-8">
           <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.04] transition">
@@ -138,7 +137,7 @@ export default function Home() {
 
             <p className="mt-3 text-white/80">
               Our members get real world experiences to apply their skills into the intersection of business and tech. Analysts work through the
-              entire consulting process, from scoping and interfacing with the client, to presenting final tech-based deliverables built on data-driven insights.
+              entire consulting process, from scoping and interfacing with the client to presenting final tech-based deliverables built on data-driven insights.
             </p>
           </div>
           <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.04] transition">
@@ -148,7 +147,7 @@ export default function Home() {
             </p>
 
             <p className="mt-3 text-white/80">
-              We invest significantly into our member tech + prof development, including creating weekly workshops in ML, data engineering, strategy,
+              We invest significantly into our member tech + prof development, including creating weekly workshops in ML, data engineering, strategy
               and curating a comprehensive MDC-specific resource hub offering tracks in data science, consulting, SWE, and more.
 
             </p>
@@ -161,7 +160,7 @@ export default function Home() {
 
             <p className="mt-3 text-white/80">
               From arb sunsets to ice skating socials, our team and community go beyond just project work. Community is why MDC was originally created—
-              every member is part of a supportive network where we not only work together professionally but also connect socially.
+              every member is part of a supportive network where we can work together professionally and also connect socially.
             </p>
           </div>
         </div>
@@ -179,11 +178,11 @@ export default function Home() {
           <SectionHeader>What we do</SectionHeader>
 
           <div className="mt-12 grid grid-cols-1 gap-3 sm:grid-cols-3 lg:grid-cols-5">
-            <ServiceCard index={1} title="Advanced Analytics" desc="Data analytics and manipulation to find trends and patterns that lead to actionable insights." />
+            <ServiceCard index={1} title="Data Analytics" desc="Data cleaning, analysis, and manipulation to uncover and translate trends and patterns that lead to actionable insights." />
             <ServiceCard index={2} title="Machine Learning" desc="Predictive modeling, NLP pipelines, and recommendation systems tailored to our client's data landscapes." />
             <ServiceCard index={3} title="Data Engineering" desc="Robust ETL pipelines, data warehousing, and cloud infrastructure optimization on AWS/Azure/GCP." />
-            <ServiceCard index={4} title="Web Dev" desc="Full-stack development with a focus on performance and usability for our clients' target audiences." />
-            <ServiceCard index={5} title="Visualization & BI" desc="Interactive dashboards (Tableau, PowerBI, Looker) and custom web applications to drive decision making." />
+            <ServiceCard index={4} title="Web Development" desc="End-to-end full-stack web development from database design and backend APIs to frontends and user interfacing." />
+            <ServiceCard index={5} title="Visualization & BI" desc="Interactive dashboards (Tableau, PowerBI, Looker) focused on data storytelling to drive data-based decision-making." />
           </div>
         </motion.div>
       </section>

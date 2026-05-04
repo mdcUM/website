@@ -5,8 +5,8 @@ import Image from 'next/image';
 
 export default function WhoWeAreSimple({
   title = 'Who we are',
-  text1 = 'We are a student-led tech consulting club building data-driven solutions for partners in industry, academia, and more. ',
-  text2 = 'Our mission is to provide innovative data-driven consulting services that deliver high-impact solutions to our clients. We aim to equip students with the analytical skills needed to solve complex business problems and drive meaningful impact across industries.' ,
+  text1 = 'MDC is a student-led tech consulting club building data science solutions for partners in industry, academia, and more. Our mission is to provide innovative data-driven consulting services that deliver high-impact solutions to our clients. ',
+  text2 = 'MDC was created to fill a gap in U-M data-based student orgs, becoming a space for students to learn + apply data science to solve real business problems. While data is our core, we offer end-to-end tech services—from fullstack development to systems design—to deliver a comprehensive tech consulting experience ' ,
   images = [
     { src: '/team/smiling.webp', alt: 'Group Photo' },
     { src: '/team/laughing.webp', alt: 'Group Talking Photo 1' },
@@ -39,7 +39,8 @@ export default function WhoWeAreSimple({
 
           <p className="mt-3 text-white/70">{text1}
             <br /><br />
-            {text2}</p>
+            {text2}
+            </p>
 
           <ul className="mt-6 space-y-2 text-sm text-white/75">
             <li className="flex items-center gap-2">
@@ -49,7 +50,7 @@ export default function WhoWeAreSimple({
 
             <li className="flex items-center gap-2">
               <span className="h-1.5 w-1.5 rounded-full bg-gradient-to-r from-[#E6DAFF] to-[#9080DB]" />
-              Technical + professional development in AI, strategy, analytics + more
+              Technical + professional development in ML, analytics, strategy, and more
             </li>
 
             <li className="flex items-center gap-2">
