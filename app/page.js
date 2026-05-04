@@ -221,7 +221,7 @@ export default function Home() {
 
           <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-10 items-center justify-items-center">
 
-            <div className="transition-transform duration-300 hover:scale-105 flex items-center justify-center h-20 md:h-24">
+            <div className="flex items-center justify-center h-20 md:h-24">
               <img
                 src="/sponsors/lsa-barger.webp"
                 alt="LSA Barger Leadership Institute"
@@ -229,7 +229,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="transition-transform duration-300 hover:scale-105 flex items-center justify-center h-20 md:h-24">
+            <div className="flex items-center justify-center h-20 md:h-24">
               <img
                 src="/sponsors/esg.webp"
                 alt="Engineering Student Government"
@@ -237,7 +237,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="transition-transform duration-300 hover:scale-105 flex items-center justify-center h-20 md:h-24">
+            <div className="flex items-center justify-center h-20 md:h-24">
               <img
                 src="/sponsors/SOFC.webp"
                 alt="Student Organization Funding Committee"
@@ -245,7 +245,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="transition-transform duration-300 hover:scale-105 flex items-center justify-center h-20 md:h-24">
+            <div className="flex items-center justify-center h-20 md:h-24">
               <img
                 src="/sponsors/LSA-SG.webp"
                 alt="LSA Student Government"
