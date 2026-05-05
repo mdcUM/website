@@ -107,15 +107,29 @@ export default function Home() {
           <div className="flex w-max gap-6 animate-[marquee_35s_linear_infinite] h-full items-center">
 
             {[...Array(2)].map((_, setIdx) =>
-              ["pic3.webp", "pic5.webp", "pic2.webp", "pic4.webp", "pic1.webp", "pic6.webp", "pic7.webp"].map((img, i) => (
+              [
+                { src: "pic3.webp", caption: "Project Presentations" },
+                { src: "pic5.webp", caption: "F25 Retreat" },
+                { src: "pic2.webp", caption: "W26 Retreat" },
+                { src: "pic4.webp", caption: "Team Picture" },
+                { src: "pic1.webp", caption: "W26 Trek" },
+                { src: "pic6.webp", caption: "Team Bonding" },
+                { src: "pic7.webp", caption: "Hackathon" }
+              ].map((imgData, i) => (
                 <div
                   key={`${setIdx}-${i}`}
-                  className="h-[180px] md:h-[240px] w-[260px] md:w-[320px] flex-shrink-0 rounded-2xl overflow-hidden border border-white/10"
+                  className="group relative h-[180px] md:h-[240px] w-[260px] md:w-[320px] flex-shrink-0 rounded-2xl overflow-hidden border border-white/10 transition-all duration-300 hover:scale-[1.03] hover:z-10 cursor-pointer"
                 >
                   <img
-                    src={`/team/${img}`}
-                    className="h-full w-full object-cover"
+                    src={`/team/${imgData.src}`}
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    alt={imgData.caption}
                   />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0f1021]/90 via-[#0f1021]/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100 flex items-end p-5">
+                    <span className="text-white font-medium text-lg tracking-wide transform translate-y-4 transition-all duration-300 group-hover:translate-y-0">
+                      {imgData.caption}
+                    </span>
+                  </div>
                 </div>
               ))
             )}
