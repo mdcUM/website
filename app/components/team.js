@@ -93,7 +93,7 @@ function TeamCard({ member }) {
         </div>
       </div>
 
-      <div className="h-1 w-full [background:linear-gradient(90deg,#E6DAFF,#9080DB)]" />
+      <div className="absolute inset-x-0 bottom-0 h-1 [background:linear-gradient(90deg,#E6DAFF,#9080DB)]" />
     </motion.article>
   );
 }
