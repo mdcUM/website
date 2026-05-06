@@ -10,11 +10,11 @@ import { CLIENTS } from '../data/clients';
 import Footer from './footer';
 
 const SERVICE_COLORS = {
-  'Analytics':          { bg: 'rgba(216,90,48,0.18)',  border: 'rgba(216,90,48,0.35)',  text: '#F0997B' },
-  'ML':        { bg: 'rgba(29,158,117,0.18)', border: 'rgba(29,158,117,0.35)', text: '#5DCAA5' },
-  'Data Eng':    { bg: 'rgba(127,119,221,0.18)',border: 'rgba(127,119,221,0.35)','text': '#AFA9EC' },
-  'Web Dev': { bg: 'rgba(186,117,23,0.18)', border: 'rgba(186,117,23,0.35)', text: '#EF9F27' },
-  'Viz/BI':       { bg: 'rgba(212,83,126,0.18)', border: 'rgba(212,83,126,0.35)', text: '#ED93B1' },
+  'Analytics':          { bg: 'rgba(180, 140, 220, 0.31)',  border: 'rgba(210,180,240,0.38)', text: '#e8d9fd' },
+  'ML':        { bg: 'rgba(47,23,145,0.44)',   border: 'rgba(125, 103, 203, 0.55)',  text: '#d8d4e4' },
+  'Data Eng':    { bg: 'rgba(132, 74, 202, 0.37)',  border: 'rgba(141, 84, 227, 0.49)', text: '#d4bcfb' },
+  'Web Dev': { bg: 'rgba(25, 28, 222, 0.59)', border: 'rgba(23, 23, 186, 0.35)', text: '#b2c9fa' },
+  'Viz/BI':       { bg: 'rgba(255, 255, 255, 0.17)',    border: 'rgb(255, 255, 255)',   text: '#ffffff' },
 };
 
 function initials(name) { const p = name.trim().split(/\s+/); return ((p[0]?.[0] || '') + (p[p.length - 1]?.[0] || '')).toUpperCase(); }

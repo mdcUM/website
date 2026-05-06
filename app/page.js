@@ -206,8 +206,8 @@ export default function Home() {
           <SectionHeader>Who we&apos;ve worked with</SectionHeader>
           <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <CaseCard tag="ML" title="Riot Games" blurb="Engineered full framework for video game NPC behaviors." link="/work/stanhope" logo="/clients/riot_adjacent.webp" />
-            <CaseCard tag="Data" title="Ballotpedia" blurb="Analyzed and visualized 6 years of data from the Ballotpedia Candidate Connections survey." link="/work/ballotpediaF25" logo="/clients/ballotpedia.webp" />
-            <CaseCard tag="Data" title="MCFN" blurb="Designed and implemented an automated email alerts system to scrape campaign finance data." link="/work/mcfn" logo="/clients/mcfn.webp" />
+            <CaseCard tag="Analytics" title="Ballotpedia" blurb="Analyzed and visualized 6 years of data from the Ballotpedia Candidate Connections survey." link="/work/ballotpediaF25" logo="/clients/ballotpedia.webp" />
+            <CaseCard tag="Data Eng" title="MCFN" blurb="Designed and implemented an automated email alerts system to scrape campaign finance data." link="/work/mcfn" logo="/clients/mcfn.webp" />
           </div>
         </motion.div>
       </section>
