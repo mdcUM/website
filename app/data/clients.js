@@ -16,6 +16,7 @@ export const CLIENTS = [
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
     semester: 'Fall 2025',
+    serviceArea: 'ML',
     tags: ['ML Engineering', 'Local LLMS', 'Python'],
     summary: 'Engineered full framework for video game NPC behaviors.',
     work: [
@@ -41,7 +42,8 @@ export const CLIENTS = [
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
     semester: 'Fall 2025',
-    tags: ['System Design', 'Research', 'Strategy'],
+    serviceArea: 'Data Eng',
+    tags: ['Research', 'Sys. Design', 'ETL'],
     summary: 'Designed and implemented a fully automated email alerts system to scrape campaign finance data.',
     work: [
       'Data tracking systems and workflows',
@@ -65,7 +67,8 @@ export const CLIENTS = [
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
     semester: 'Fall 2025',
-    tags: ['Python', 'Strategy', 'Data Visualization'],
+    serviceArea: 'Analytics',
+    tags: ['Python', 'Strategy', 'Looker'],
     summary: 'Analyzed and visualized 6 years of data from the Ballotpedia Candidate Connections survey.',
     work: [
       'Lookerstudio analytics dashboard',
@@ -89,7 +92,8 @@ export const CLIENTS = [
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
     semester: 'Fall 2025',
-    tags: ['System Design', 'Research', 'Strategy'],
+    serviceArea: 'Data Eng',
+    tags: ['Strategy', 'Sys. Design', 'Surveying'],
     summary: 'Conducted a landscape analysis of data management practices to support improved information sharing and partnership coordination across a multidisciplinary health program.',
     work: [
       'Data tracking systems and workflows',
@@ -114,7 +118,8 @@ export const CLIENTS = [
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
     semester: 'Fall 2025',
-    tags: ['Python', 'Graphs', 'Data Cleaning'],
+    serviceArea: 'Viz/BI',
+    tags: ['Python', 'Looker', 'Strategy'],
     summary: 'Visualized 30 years of seed grant impact through data analysis and graphs',
     work: [
       'Looker studio analytics dashboard',

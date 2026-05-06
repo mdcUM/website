@@ -9,6 +9,14 @@ import { CLIENTS } from '../data/clients';
 
 import Footer from './footer';
 
+const SERVICE_COLORS = {
+  'Analytics':          { bg: 'rgba(216,90,48,0.18)',  border: 'rgba(216,90,48,0.35)',  text: '#F0997B' },
+  'ML':        { bg: 'rgba(29,158,117,0.18)', border: 'rgba(29,158,117,0.35)', text: '#5DCAA5' },
+  'Data Eng':    { bg: 'rgba(127,119,221,0.18)',border: 'rgba(127,119,221,0.35)','text': '#AFA9EC' },
+  'Web Dev': { bg: 'rgba(186,117,23,0.18)', border: 'rgba(186,117,23,0.35)', text: '#EF9F27' },
+  'Viz/BI':       { bg: 'rgba(212,83,126,0.18)', border: 'rgba(212,83,126,0.35)', text: '#ED93B1' },
+};
+
 function initials(name) { const p = name.trim().split(/\s+/); return ((p[0]?.[0] || '') + (p[p.length - 1]?.[0] || '')).toUpperCase(); }
 
 const ALL_TAGS = Array.from(new Set(CLIENTS.flatMap(c => c.tags))).sort();
@@ -40,7 +48,18 @@ function StatChip({ label, value }) {
   );
 }
 
-function TagPillStatic({ text }) {
+function TagPillStatic({ text, primary }) {
+  if (primary) {
+    const c = SERVICE_COLORS[text] || SERVICE_COLORS['Consulting'];
+    return (
+      <span
+        className="rounded-full px-2 py-0.5 text-xs font-semibold"
+        style={{ background: c.bg, border: `1px solid ${c.border}`, color: c.text }}
+      >
+        {text}
+      </span>
+    );
+  }
   return <span className="rounded-full border border-white/15 px-2 py-0.5 text-xs text-white/80">{text}</span>;
 }
 
@@ -119,9 +138,10 @@ function ClientModal({ open, onClose, client }) {
                         {client.name}
                       </h3>
                       <div className="mt-2 flex flex-wrap gap-2">
-                        {client.tags.map((t) => (
-                          <TagPillStatic key={t} text={t} />
-                        ))}
+                        {client.serviceArea && <TagPillStatic text={client.serviceArea} primary />}
+{client.tags.map((t) => (
+  <TagPillStatic key={t} text={t} />
+))}
                       </div>
                     </div>
 
@@ -253,7 +273,8 @@ export default function ClientsView() {
                       </div>
                       <div className="mt-1.5 flex w-full flex-1 items-end justify-between gap-3">
                         <div className="flex flex-wrap gap-1.5">
-                          {c.tags.slice(0, 3).map(t => <TagPillStatic key={t} text={t} />)}
+                          {c.serviceArea && <TagPillStatic text={c.serviceArea} primary />}
+{c.tags.slice(0, 3).map(t => <TagPillStatic key={t} text={t} />)}
                         </div>
                         <span className="shrink-0 rounded-full border border-white/15 px-3 py-1 text-xs text-white/85 transition group-hover:bg-white/10">Details</span>
                       </div>
