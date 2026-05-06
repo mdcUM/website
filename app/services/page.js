@@ -162,7 +162,7 @@ export default function ServicesPage() {
                 </div>
             </section>
 
-            {/* FAQ Section 
+            {/* FAQ Section */}
             <section className="relative z-10 mx-auto max-w-4xl px-4 py-24">
                 <h2 className="text-3xl font-semibold text-center mb-16 font-display">Frequently Asked Questions</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -204,7 +204,6 @@ export default function ServicesPage() {
                     </div>
                 </div>
             </section>
-            */}
 
             {/* Final CTA */}
             <section className="relative z-10 mx-auto max-w-4xl px-4 pb-32 text-center">
