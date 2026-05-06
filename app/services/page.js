@@ -67,7 +67,7 @@ export default function ServicesPage() {
                         </div>
                         <h3 className="text-xl font-semibold mb-3 font-display">Machine Learning</h3>
                         <p className="text-white/70 text-sm mb-6 flex-1">
-                            Predictive modeling, NLP pipelines, and recommendation systems tailored to our client's data landscapes.
+                            Predictive modeling, NLP pipelines, and recommendation systems tailored to our client&apos;s data landscapes.
                         </p>
                     </div>
 
