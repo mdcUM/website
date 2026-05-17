@@ -60,7 +60,7 @@ export default function Home() {
               <span className="bg-gradient-to-r from-[#E6DAFF] to-[#9080DB] bg-clip-text text-transparent"> Data Consulting</span>
             </h1>
             <p className="mt-6 max-w-2xl text-lg text-white/70 leading-relaxed font-light">
-              UM&apos;s Premier Data Science Consulting Club
+              UofM&apos;s Premier Data Science Consulting Club
             </p>
             <div className="mt-8 flex flex-wrap gap-4 items-center justify-center">
               <Link href="/join" className="group relative rounded-full bg-gradient-to-r from-[#9080DB] to-[#E6DAFF] px-8 py-3 font-medium text-[#0b0b11] shadow-[0_10px_30px_rgba(144,128,219,0.2)] hover:shadow-[0_10px_40px_rgba(144,128,219,0.4)] transition-all transform hover:-translate-y-0.5">
