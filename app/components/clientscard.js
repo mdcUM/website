@@ -272,7 +272,7 @@ export default function ClientsView() {
                         <span className="shrink-0 whitespace-nowrap text-xs text-white/50">{c.semester || c.year}</span>
                       </div>
                       <div className="mt-1.5 flex w-full flex-1 items-end justify-between gap-3">
-                        <div className="flex flex-wrap gap-1.5">
+                        <div className="flex flex-wrap gap-1.5 h-[50px] overflow-hidden content-start">
                           {c.serviceArea && <TagPillStatic text={c.serviceArea} primary />}
 {c.tags.slice(0, 3).map(t => <TagPillStatic key={t} text={t} />)}
                         </div>
