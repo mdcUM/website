@@ -235,35 +235,35 @@ export default function Home() {
 
           <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-10 items-center justify-items-center">
 
-            <div className="flex items-center justify-center h-20 md:h-24">
+            <div className="relative flex items-center justify-center h-20 md:h-24 w-full">
               <img
                 src="/sponsors/lsa-barger.webp"
                 alt="LSA Barger Leadership Institute"
-                className="max-h-full w-auto object-contain"
+                className="h-full w-full object-contain"
               />
             </div>
 
-            <div className="flex items-center justify-center h-20 md:h-24">
+            <div className="relative flex items-center justify-center h-20 md:h-24 w-full">
               <img
                 src="/sponsors/esg.webp"
                 alt="Engineering Student Government"
-                className="max-h-full w-auto object-contain"
+                className="h-full w-full object-contain scale-[1.25]"
               />
             </div>
 
-            <div className="flex items-center justify-center h-20 md:h-24">
+            <div className="relative flex items-center justify-center h-20 md:h-24 w-full">
               <img
                 src="/sponsors/SOFC.webp"
                 alt="Student Organization Funding Committee"
-                className="max-h-full w-auto object-contain"
+                className="h-full w-full object-contain scale-95"
               />
             </div>
 
-            <div className="flex items-center justify-center h-20 md:h-24">
+            <div className="relative flex items-center justify-center h-20 md:h-24 w-full">
               <img
                 src="/sponsors/LSA-SG.webp"
                 alt="LSA Student Government"
-                className="max-h-full w-auto object-contain"
+                className="h-full w-full object-contain"
               />
             </div>
 
