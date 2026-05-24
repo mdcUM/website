@@ -235,7 +235,7 @@ export default function Home() {
 
           <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-10 items-center justify-items-center">
 
-            <div className="relative flex items-center justify-center h-20 md:h-24 w-full">
+            <div className="relative flex items-center justify-center h-28 w-full rounded-2xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.04] transition">
               <img
                 src="/sponsors/lsa-barger.webp"
                 alt="LSA Barger Leadership Institute"
@@ -243,7 +243,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="relative flex items-center justify-center h-20 md:h-24 w-full">
+            <div className="relative flex items-center justify-center h-28 w-full rounded-2xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.04] transition">
               <img
                 src="/sponsors/esg.webp"
                 alt="Engineering Student Government"
@@ -251,7 +251,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="relative flex items-center justify-center h-20 md:h-24 w-full">
+            <div className="relative flex items-center justify-center h-28 w-full rounded-2xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.04] transition">
               <img
                 src="/sponsors/SOFC.webp"
                 alt="Student Organization Funding Committee"
@@ -259,7 +259,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="relative flex items-center justify-center h-20 md:h-24 w-full">
+            <div className="relative flex items-center justify-center h-28 w-full rounded-2xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.04] transition">
               <img
                 src="/sponsors/LSA-SG.webp"
                 alt="LSA Student Government"
