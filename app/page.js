@@ -157,7 +157,7 @@ export default function Home() {
           <div className="rounded-2xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.04] transition">
             <h3 className="text-xl font-semibold text-white mb-3">Education & Skill Development</h3>
             <p className="italic text-[#BFAEF0]">
-              Technical and professional programming to build member skills in data science,  consulting, and tech & business as a whole.
+              Technical and professional programming to build member skills in data science, consulting, and tech & business.
             </p>
 
             <p className="mt-3 text-white/80">
