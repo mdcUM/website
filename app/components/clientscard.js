@@ -15,6 +15,7 @@ const SERVICE_COLORS = {
   'Data Eng':    { bg: 'rgba(132, 74, 202, 0.37)',  border: 'rgba(141, 84, 227, 0.49)', text: '#d4bcfb' },
   'Web Dev': { bg: 'rgba(25, 28, 222, 0.59)', border: 'rgba(23, 23, 186, 0.35)', text: '#b2c9fa' },
   'Viz/BI':       { bg: 'rgba(255, 255, 255, 0.17)',    border: 'rgb(255, 255, 255)',   text: '#ffffff' },
+  'Consulting':   { bg: 'rgba(255, 255, 255, 0.1)',    border: 'rgba(255, 255, 255, 0.2)',   text: '#ffffff' },
 };
 
 function initials(name) { const p = name.trim().split(/\s+/); return ((p[0]?.[0] || '') + (p[p.length - 1]?.[0] || '')).toUpperCase(); }
@@ -118,9 +119,9 @@ function ClientModal({ open, onClose, client }) {
               />
               <div
                 aria-hidden
-                className="absolute inset-x-0 -top-px h-px rounded-t-3xl"
+                className="absolute inset-x-8 -top-px h-px"
                 style={{
-                  background: `linear-gradient(90deg, ${client.brand || '#E6DAFF'}, #9080DB)`,
+                  background: `linear-gradient(90deg, transparent, ${client.brand || '#E6DAFF'}, #9080DB, transparent)`,
                   opacity: 0.7,
                 }}
               />
