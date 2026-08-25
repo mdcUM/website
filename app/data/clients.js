@@ -16,7 +16,7 @@ export const CLIENTS = [
     brand: 'rgba(25, 123, 255, 1)',
     year: 2026,
     semester: 'Winter 2026',
-    serviceArea: 'NLP',
+    serviceArea: 'Machine Learning',
     tags: ['Survey Design', 'Data Collection', 'NLP'],
     summary: 'Investigated AI literacy and designed data collection frameworks to understand student AI use.',
     work: [
@@ -38,7 +38,7 @@ export const CLIENTS = [
     brand: 'rgb(206, 212, 220)',
     year: 2026,
     semester: 'Winter 2026',
-    serviceArea: 'Data Analysis',
+    serviceArea: 'Data Analytics',
     tags: ['Data Cleaning', 'Data Analysis', 'Python', 'Pandas'],
     summary: 'Analyzed the impact of the Legal Navigator Program on case efficiency and client fall-off.',
     work: [
@@ -60,7 +60,7 @@ export const CLIENTS = [
     brand: 'rgb(206, 212, 220)',
     year: 2026,
     semester: 'Winter 2026',
-    serviceArea: 'Data Eng',
+    serviceArea: 'Data Engineering',
     tags: ['Data Engineering', 'Python', 'React', 'Dashboarding'],
     summary: 'Built a data pipeline and interactive dashboard for PAC-level financial transparency.',
     work: [
@@ -82,7 +82,7 @@ export const CLIENTS = [
     brand: 'rgb(185, 32, 32)',
     year: 2026,
     semester: 'Winter 2026',
-    serviceArea: 'ML',
+    serviceArea: 'Machine Learning',
     tags: ['AI/ML', 'Simulation', 'Game Design'],
     summary: 'Expanded an interactive, AI-powered fantasy adventure simulation with improved agent decision-making.',
     work: [
@@ -103,7 +103,7 @@ export const CLIENTS = [
     brand: 'rgba(25, 123, 255, 1)',
     year: 2026,
     semester: 'Winter 2026',
-    serviceArea: 'Analytics',
+    serviceArea: 'Data Analytics',
     tags: ['Data Cleaning', 'Data Visualization', 'Analytics'],
     summary: 'Analyzed student engagement data to identify trends and probabilities of career potential.',
     work: [
@@ -125,7 +125,7 @@ export const CLIENTS = [
     brand: 'rgba(25, 123, 255, 1)',
     year: 2026,
     semester: 'Winter 2026',
-    serviceArea: 'Analytics',
+    serviceArea: 'Data Analytics',
     tags: ['Data Pipeline', 'Dashboarding', 'AI Summarization'],
     summary: 'Built a data pipeline, dashboard, and AI summarization tool for survey data.',
     work: [
@@ -147,7 +147,7 @@ export const CLIENTS = [
     brand: 'rgb(185, 32, 32)',
     year: 2025,
     semester: 'Fall 2025',
-    serviceArea: 'ML',
+    serviceArea: 'Machine Learning',
     tags: ['ML Engineering', 'Local LLMS', 'Python'],
     summary: 'Engineered full framework for video game NPC behaviors.',
     work: [
@@ -173,7 +173,7 @@ export const CLIENTS = [
     brand: 'rgb(206, 212, 220)',
     year: 2025,
     semester: 'Fall 2025',
-    serviceArea: 'Data Eng',
+    serviceArea: 'Data Engineering',
     tags: ['Research', 'Sys. Design', 'ETL'],
     summary: 'Designed and implemented a fully automated email alerts system to scrape campaign finance data.',
     work: [
@@ -198,7 +198,7 @@ export const CLIENTS = [
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
     semester: 'Fall 2025',
-    serviceArea: 'Analytics',
+    serviceArea: 'Data Analytics',
     tags: ['Python', 'Strategy', 'Looker'],
     summary: 'Analyzed and visualized 6 years of data from the Ballotpedia Candidate Connections survey.',
     work: [
@@ -223,7 +223,7 @@ export const CLIENTS = [
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
     semester: 'Fall 2025',
-    serviceArea: 'Data Eng',
+    serviceArea: 'Data Engineering',
     tags: ['Strategy', 'Sys. Design', 'Surveying'],
     summary: 'Conducted a landscape analysis of data management practices to support improved information sharing and partnership coordination across a multidisciplinary health program.',
     work: [
@@ -249,7 +249,7 @@ export const CLIENTS = [
     brand: 'rgba(25, 123, 255, 1)',
     year: 2025,
     semester: 'Fall 2025',
-    serviceArea: 'Viz/BI',
+    serviceArea: 'Visualization & BI',
     tags: ['Python', 'Looker', 'Strategy'],
     summary: 'Visualized 30 years of seed grant impact through data analysis and graphs',
     work: [
@@ -274,7 +274,7 @@ export const CLIENTS = [
     brand: 'rgb(9, 76, 164)',
     year: 2025,
     semester: 'Winter 2025',
-    serviceArea: 'Viz/BI',
+    serviceArea: 'Visualization & BI',
     tags: ['Python', 'R', 'Looker Studio', 'KPIs'],
     summary: 'KPI analysis and analytics dashboarding.',
     work: [
@@ -301,7 +301,7 @@ export const CLIENTS = [
     brand: 'rgba(0, 102, 204, 1)',
     year: 2025,
     semester: 'Winter 2025',
-    serviceArea: 'Analytics',
+    serviceArea: 'Data Analytics',
     website: 'https://ballotpedia.org/',
     caseUrl: '/work/ballotpedia',
     tags: ['SQL', 'Tableau', 'Strategy'],
@@ -330,7 +330,7 @@ export const CLIENTS = [
     brand: 'rgba(255, 70, 85, 1)',
     year: 2025,
     semester: 'Winter 2025',
-    serviceArea: 'Analytics',
+    serviceArea: 'Data Analytics',
     website: 'https://www.leagueoflegends.com/',
     caseUrl: '/work/riot',
     tags: ['Graph Algs.', 'KPIs', 'A/B Testing'],
@@ -359,7 +359,7 @@ export const CLIENTS = [
     brand: 'rgba(20, 20, 255, 1)',
     year: 2025,
     semester: 'Winter 2025',
-    serviceArea: 'Web Dev',
+    serviceArea: 'Web Development',
     // website: 'https://example.com/',
     caseUrl: '/work/homestream',
     tags: ['ML Eng.', 'React', 'UX Design'],
@@ -388,7 +388,7 @@ export const CLIENTS = [
     brand: 'rgb(137, 127, 126)',
     year: 2025,
     semester: 'Winter 2025',
-    serviceArea: 'Data Eng',
+    serviceArea: 'Data Engineering',
     website: 'https://www.nomadsciencemongolia.org/',
     caseUrl: '/work/nomad',
     tags: ['SQL', 'Python', 'Cloud Comp.'],
