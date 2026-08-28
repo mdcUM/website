@@ -27,6 +27,7 @@ export const MEMBERS = [
         name: 'Joshua Lee',
         title: 'VP, Internal',
         grade: 'Sophomore',
+        image: '/members/josh_lee.webp',
         links: { email: 'Jsunglee@umich.edu', linkedin: '' }
       },
       {
@@ -94,6 +95,7 @@ export const MEMBERS = [
         name: 'Srikarthik\tVangavolu',
         title: 'Chair, Inclusion',
         grade: 'Senior',
+        image: '/members/karthik.webp',
         links: {
           email: 'Karthkv@umich.edu',
           linkedin: 'https://www.linkedin.com/in/srikarthik-vangavolu-a16476280/'
