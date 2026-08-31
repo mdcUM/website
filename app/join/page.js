@@ -19,8 +19,8 @@ export default function JoinPage() {
       <section className="relative z-10 mx-auto max-w-6xl px-4 py-20">
         <h2 className="text-5xl font-semibold text-center mb-12">F26 Recruitment</h2>
         <p className="text-center text-white/70 max-w-2xl mx-auto mb-12">
-          Our Fall 2026 recruitment cycle is currently being finalized. Event details, workshops, and application deadlines will be posted soon.
-          <br /><br />Fill out our interest form and check back for updates!
+          Our Fall 2026 recruitment schedule is now available! Check out our upcoming events, workshops, and deadlines below.
+          <br /><br />Fill out our interest form to stay informed about our process!
         </p>
         <Timeline season="Fall 2026" interestUrl={INTEREST_URL} applyUrl={APPLY_URL} events={EVENTS} big />
       </section>

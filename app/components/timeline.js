@@ -69,13 +69,7 @@ export default function Timeline({ season='Fall 2026', interestUrl='', applyUrl=
       </div>
 
       <div className="mx-auto max-w-6xl px-4">
-        <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
-          <div>
-            <div className="inline-flex items-center gap-2 rounded-full border border-white/15 px-3 py-1 text-xs text-white/70">
-              <span className="h-1.5 w-1.5 rounded-full [background:linear-gradient(90deg,#E6DAFF,#9080DB)]" />
-              Recruiting Timeline — {season} (updated recruitment schedule coming soon)
-            </div>
-          </div>
+        <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
 
           <div className="flex flex-wrap gap-3">
             {interestUrl ? (
