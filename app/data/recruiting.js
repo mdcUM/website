@@ -1,6 +1,6 @@
 // When future people see this you don't need to change the components, just change the strings below and it will automatically change the CSS for the buttons.
 export const INTEREST_URL = "https://forms.gle/VQr46G75E1YToWVU6" // Previous: 'https://forms.gle/MMw2gpNFQDsFGfTZ9';
-export const APPLY_URL = null // Previous: "https://forms.gle/uFq1PdZ8fhL3jFX27";
+export const APPLY_URL = "https://docs.google.com/forms/d/e/1FAIpQLSd-kRdP7QaBnH05J-5ftcf5rXNhHWeaptGX5uUPQEm5MBEtBw/viewform?usp=dialog"
 export const EVENTS = [
   { title: 'Festifall', start: '2026-09-02T18:00:00', end: '2026-09-02T20:00:00', location: 'E-064', description: 'Come get to know MDC! Talk to our members to see if our community is the right fit for you ' },
   { title: 'Application Open', start: '2026-09-03T20:00:00', description: 'Applications for the Fall 2026 semester are now open!' },
