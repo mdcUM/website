@@ -91,7 +91,7 @@ export const CLIENTS = [
     ],
     impact: [{ label: 'New AI Agents Introduced', value: '5+' }, { label: 'Behavioral Traits Simulated', value: '20+' }],
     testimonial: null,
-    website: 'https://stanhope.com/',
+    website: 'https://www.riotgames.com/en',
     caseUrl: '/work/stanhope-w26',
     description: 'Stanhope Research & Strategy is a Games R&D Lab focused on exploring potential futures for games and interactive systems by creating believable worlds and simulations.',
     whatwedid: 'We expanded an interactive, AI-powered fantasy adventure simulation. We extended the core simulation to improve agent decision-making and reasoning, ensuring agents are goal-seeking but fallible. We introduced multiple agents with differentiated traits and goals acting within the same world space.',
